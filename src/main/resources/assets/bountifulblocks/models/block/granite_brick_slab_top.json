@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "bountifulblocks:block/granite_bricks",
+        "side": "bountifulblocks:block/granite_bricks",
+        "top": "bountifulblocks:block/granite_bricks"
+    }
+}

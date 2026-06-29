@@ -1,0 +1,43 @@
+{
+    "blockstates*": {
+        "variants": {
+            "type=bottom": {
+                "model": "$namespace:block/$model"
+            },
+            "type=double": {
+                "model": "$namespace:block/$copies"
+            },
+            "type=top": {
+                "model": "$namespace:block/$model_top"
+            }
+        }
+    },
+
+    "models": {"block": {
+
+        "_": {
+            "parent": "minecraft:block/slab",
+            "textures": {
+                "bottom": "$namespace:block/$texture",
+                "side": "$namespace:block/$texture",
+                "top": "$namespace:block/$texture"
+            }
+        },
+
+        "_top": {
+            "parent":"minecraft:block/slab_top",
+            "textures": {
+                "bottom": "$namespace:block/$texture",
+                "side": "$namespace:block/$texture",
+                "top": "$namespace:block/$texture"
+            }
+        }
+    }},
+
+   "items*": {
+      "model": {
+         "type": "minecraft:model",
+         "model": "$namespace:block/$model"
+      }
+   }
+}

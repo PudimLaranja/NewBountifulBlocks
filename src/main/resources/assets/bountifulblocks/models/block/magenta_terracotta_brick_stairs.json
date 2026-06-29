@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/magenta_terracotta_bricks",
+        "side": "bountifulblocks:block/magenta_terracotta_bricks",
+        "top": "bountifulblocks:block/magenta_terracotta_bricks"
+    }
+}

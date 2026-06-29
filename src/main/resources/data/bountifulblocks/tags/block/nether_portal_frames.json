@@ -1,0 +1,11 @@
+{
+  "replace" : false,
+  "values": [
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "bountifulblocks:chiseled_obsidian",
+    "bountifulblocks:polished_obsidian",
+    "bountifulblocks:obsidian_bricks",
+    "bountifulblocks:obsidian_tiles"
+  ]
+}

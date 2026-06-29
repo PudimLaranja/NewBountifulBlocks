@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:blue_ice_bricks",
+    "result": {
+        "id": "bountifulblocks:blue_ice_brick_wall",
+        "count": 1
+    }
+}

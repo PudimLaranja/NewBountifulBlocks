@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "bountifulblocks:cobblestone_tiles",
+        "minecraft:vine"
+    ],
+    "result": {
+        "id": "bountifulblocks:mossy_cobblestone_tiles",
+        "count": 1
+    }
+}

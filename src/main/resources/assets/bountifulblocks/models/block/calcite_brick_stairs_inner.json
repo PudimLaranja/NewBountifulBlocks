@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/calcite_bricks",
+        "side": "bountifulblocks:block/calcite_bricks",
+        "top": "bountifulblocks:block/calcite_bricks"
+    }
+}

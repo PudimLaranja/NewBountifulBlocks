@@ -1,0 +1,14 @@
+{
+    "generated": true,
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/smooth_mud_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/smooth_mud"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/smooth_mud_slab_top"
+        }
+    }
+}

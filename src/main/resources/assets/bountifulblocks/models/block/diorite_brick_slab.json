@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/diorite_bricks",
+        "side": "bountifulblocks:block/diorite_bricks",
+        "top": "bountifulblocks:block/diorite_bricks"
+    }
+}

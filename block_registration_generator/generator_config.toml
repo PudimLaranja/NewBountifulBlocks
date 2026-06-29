@@ -1,0 +1,22 @@
+
+
+minecraft_version = "26.1.2"
+
+# specify the files to use to generate blocks, use "/" to specify block configuration files in subfolders
+blocks_config = [
+    "blocks"
+]
+
+namespace = "bountifulblocks"
+
+#example com.pudim.mymod
+package_name = "com.bountiful.blocks"
+
+# path and name of the class used to register your blocks
+# start with main: or client: and then include the path like normal example:
+# main:path.to.class
+block_registry_class = "main:blocks.ModBlocks"
+
+#include these two comments in the section you want the block registration to be generated, inside your "block_registry_class"
+# //$blockRegistration:begin
+# //$blockRegistration:end

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:calcite_tiles",
+    "result": {
+        "id": "bountifulblocks:calcite_bricks",
+        "count": 1
+    }
+}

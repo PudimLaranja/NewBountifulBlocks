@@ -1,0 +1,22 @@
+["26.1.2"]
+block_registry='''
+    public static final Block $all_caps = register(
+            "$name",
+            $type::new,
+            BlockBehaviour.Properties.ofFullCopy($copies),
+            true
+    );
+'''
+
+stairs_registry='''
+    public static final Block $all_caps = register(
+            "$name",
+            (settings) -> new StairBlock($default.defaultBlockState(),settings),
+            BlockBehaviour.Properties.ofFullCopy($copies),
+            true
+    );
+'''
+
+tab_registry = '''
+    tab.accept($all_caps.asItem());
+'''

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": "bountifulblocks:blackstone_tiles"
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:blackstone_tile_slab",
+        "count": 6
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "redstone",
+    "ingredients": [
+        "bountifulblocks:smooth_mud"
+    ],
+    "result": {
+        "id": "bountifulblocks:smooth_mud_button",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:red_terracotta",
+    "result": {
+        "id": "bountifulblocks:red_terracotta_wall",
+        "count": 1
+    }
+}

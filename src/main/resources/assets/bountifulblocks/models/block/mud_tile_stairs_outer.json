@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/mud_tiles",
+        "side": "bountifulblocks:block/mud_tiles",
+        "top": "bountifulblocks:block/mud_tiles"
+    }
+}

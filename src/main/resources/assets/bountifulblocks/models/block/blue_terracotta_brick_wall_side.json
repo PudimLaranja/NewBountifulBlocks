@@ -1,0 +1,7 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/template_wall_side",
+    "textures": {
+        "wall": "bountifulblocks:block/blue_terracotta_bricks"
+    }
+}

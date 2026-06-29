@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "bountifulblocks:stone_tiles",
+        "minecraft:moss_block"
+    ],
+    "result": {
+        "id": "bountifulblocks:mossy_stone_tiles",
+        "count": 1
+    }
+}

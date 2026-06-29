@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:stone_tiles",
+    "result": {
+        "id": "minecraft:chiseled_stone_bricks",
+        "count": 1
+    }
+}

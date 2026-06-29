@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/cherry_flooring",
+        "side": "bountifulblocks:block/cherry_flooring",
+        "top": "bountifulblocks:block/cherry_flooring"
+    }
+}

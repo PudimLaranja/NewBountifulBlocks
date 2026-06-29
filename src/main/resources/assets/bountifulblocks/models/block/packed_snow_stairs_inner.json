@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/packed_snow",
+        "side": "bountifulblocks:block/packed_snow",
+        "top": "bountifulblocks:block/packed_snow"
+    }
+}

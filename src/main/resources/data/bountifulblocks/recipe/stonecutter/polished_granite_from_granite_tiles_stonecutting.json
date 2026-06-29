@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:granite_tiles",
+    "result": {
+        "id": "minecraft:polished_granite",
+        "count": 1
+    }
+}

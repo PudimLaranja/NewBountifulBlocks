@@ -1,0 +1,84 @@
+
+{
+   "blockstates*": {
+        "multipart": [
+            {
+            "apply": {
+                "model": "$namespace:block/$model_post"
+            }
+            },
+            {
+            "apply": {
+                "model": "$namespace:block/$model_side",
+                "uvlock": true
+            },
+            "when": {
+                "north": "true"
+            }
+            },
+            {
+            "apply": {
+                "model": "$namespace:block/$model_side",
+                "uvlock": true,
+                "y": 90
+            },
+            "when": {
+                "east": "true"
+            }
+            },
+            {
+            "apply": {
+                "model": "$namespace:block/$model_side",
+                "uvlock": true,
+                "y": 180
+            },
+            "when": {
+                "south": "true"
+            }
+            },
+            {
+            "apply": {
+                "model": "$namespace:block/$model_side",
+                "uvlock": true,
+                "y": 270
+            },
+            "when": {
+                "west": "true"
+            }
+            }
+        ]
+
+    },
+
+    "models": {"block": {
+        "_inventory": {
+            "parent": "minecraft:block/fence_inventory",
+            "textures": {
+                "texture": "$namespace:block/$texture"
+            }
+        },
+        "_post": {
+            "parent": "minecraft:block/fence_post",
+            "textures": {
+                "texture": "$namespace:block/$texture"
+            }
+        },
+        "_side": {
+            "parent": "minecraft:block/fence_side",
+            "textures": {
+                "texture": "$namespace:block/$texture"
+            }
+        }
+        
+    }},
+
+
+    "items*": {
+        "model": {
+            "type": "minecraft:model",
+            "model": "$namespace:block/$model_inventory"
+        }
+    }
+
+
+}

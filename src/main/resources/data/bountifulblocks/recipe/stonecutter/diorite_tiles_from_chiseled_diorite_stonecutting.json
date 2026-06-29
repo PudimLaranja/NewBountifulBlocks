@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:chiseled_diorite",
+    "result": {
+        "id": "bountifulblocks:diorite_tiles",
+        "count": 1
+    }
+}

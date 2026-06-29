@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/black_terracotta_bricks",
+        "side": "bountifulblocks:block/black_terracotta_bricks",
+        "top": "bountifulblocks:block/black_terracotta_bricks"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "blockstates*": {
+        "variants": {
+            "": {
+                "model": "$namespace:block/$model"
+            }
+        }
+    },
+
+    "models": {"block*": {
+        "parent": "minecraft:block/carpet",
+        "textures": {
+            "wool": "$namespace:block/$texture"
+        }
+    }},
+
+    "items*": {
+        "model": {
+            "type": "minecraft:model",
+            "model": "$namespace:block/$model"
+        }
+    }
+}

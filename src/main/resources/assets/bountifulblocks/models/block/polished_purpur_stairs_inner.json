@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/polished_purpur",
+        "side": "bountifulblocks:block/polished_purpur",
+        "top": "bountifulblocks:block/polished_purpur"
+    }
+}

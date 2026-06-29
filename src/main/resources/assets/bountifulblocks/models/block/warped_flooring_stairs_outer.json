@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/warped_flooring",
+        "side": "bountifulblocks:block/warped_flooring",
+        "top": "bountifulblocks:block/warped_flooring"
+    }
+}

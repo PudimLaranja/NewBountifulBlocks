@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:polished_end_stone",
+    "result": {
+        "id": "bountifulblocks:polished_end_stone_wall",
+        "count": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/packed_ice_bricks",
+        "side": "bountifulblocks:block/packed_ice_bricks",
+        "top": "bountifulblocks:block/packed_ice_bricks"
+    }
+}

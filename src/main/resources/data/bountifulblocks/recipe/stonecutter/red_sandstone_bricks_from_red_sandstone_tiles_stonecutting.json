@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:red_sandstone_tiles",
+    "result": {
+        "id": "bountifulblocks:red_sandstone_bricks",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:polished_ice",
+    "result": {
+        "id": "bountifulblocks:chiseled_ice",
+        "count": 1
+    }
+}

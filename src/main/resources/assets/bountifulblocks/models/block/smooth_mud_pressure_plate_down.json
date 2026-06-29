@@ -1,0 +1,7 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/pressure_plate_down",
+    "textures": {
+        "texture": "bountifulblocks:block/smooth_mud"
+    }
+}

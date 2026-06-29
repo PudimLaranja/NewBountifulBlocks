@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:moss_block"
+    ],
+    "result": {
+        "id": "bountifulblocks:mossy_chiseled_stone_bricks",
+        "count": 1
+    }
+}

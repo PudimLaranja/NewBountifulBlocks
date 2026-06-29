@@ -1,0 +1,27 @@
+{
+   "blockstates*": {
+      "variants": {
+         "": {
+            "model": "$namespace:block/$model"
+         }
+      }
+   },
+
+   "models": { "block*": {
+      "parent": "minecraft:block/cube_column",
+      "textures": {
+         "end": "$namespace:block/$texture_end",
+         "side": "$namespace:block/$texture_side"
+      }
+   }},
+
+   "items*": {
+      "model": {
+         "type": "minecraft:model",
+         "model": "$namespace:block/$model"
+      }
+   }
+
+
+}
+

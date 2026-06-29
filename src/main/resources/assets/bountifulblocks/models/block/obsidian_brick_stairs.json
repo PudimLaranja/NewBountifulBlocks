@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/obsidian_bricks",
+        "side": "bountifulblocks:block/obsidian_bricks",
+        "top": "bountifulblocks:block/obsidian_bricks"
+    }
+}

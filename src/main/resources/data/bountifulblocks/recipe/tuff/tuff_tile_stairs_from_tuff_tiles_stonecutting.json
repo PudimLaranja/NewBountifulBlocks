@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": "bountifulblocks:tuff_tiles",
+    "result": {
+        "id": "bountifulblocks:tuff_tile_stairs"
+    }
+}

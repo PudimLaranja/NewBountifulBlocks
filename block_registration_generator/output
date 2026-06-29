@@ -1,0 +1,2358 @@
+    public static final Block STONE_WALL = register(
+            "stone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE),
+            true
+    );
+    public static final Block CHISELED_SMOOTH_STONE = register(
+            "chiseled_smooth_stone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE),
+            true
+    );
+    public static final Block SMOOTH_STONE_WALL = register(
+            "smooth_stone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE),
+            true
+    );
+    public static final Block SMOOTH_STONE_BRICKS = register(
+            "smooth_stone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE),
+            true
+    );
+    public static final Block SMOOTH_STONE_BRICK_SLAB = register(
+            "smooth_stone_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE_BRICKS),
+            true
+    );
+    public static final Block SMOOTH_STONE_BRICK_WALL = register(
+            "smooth_stone_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE_BRICKS),
+            true
+    );
+    public static final Block SMOOTH_STONE_TILES = register(
+            "smooth_stone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE),
+            true
+    );
+    public static final Block SMOOTH_STONE_TILE_SLAB = register(
+            "smooth_stone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE_TILES),
+            true
+    );
+    public static final Block SMOOTH_STONE_TILE_WALL = register(
+            "smooth_stone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE_TILES),
+            true
+    );
+    public static final Block CARVED_OAK_PLANKS = register(
+            "carved_oak_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS),
+            true
+    );
+    public static final Block CARVED_SPRUCE_PLANKS = register(
+            "carved_spruce_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS),
+            true
+    );
+    public static final Block CARVED_BIRCH_PLANKS = register(
+            "carved_birch_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS),
+            true
+    );
+    public static final Block CARVED_JUNGLE_PLANKS = register(
+            "carved_jungle_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS),
+            true
+    );
+    public static final Block CARVED_ACACIA_PLANKS = register(
+            "carved_acacia_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS),
+            true
+    );
+    public static final Block CARVED_DARK_OAK_PLANKS = register(
+            "carved_dark_oak_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS),
+            true
+    );
+    public static final Block CARVED_MANGROVE_PLANKS = register(
+            "carved_mangrove_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MANGROVE_PLANKS),
+            true
+    );
+    public static final Block CARVED_CHERRY_PLANKS = register(
+            "carved_cherry_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_PLANKS),
+            true
+    );
+    public static final Block CARVED_BAMBOO_PLANKS = register(
+            "carved_bamboo_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_PLANKS),
+            true
+    );
+    public static final Block CARVED_CRIMSON_PLANKS = register(
+            "carved_crimson_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS),
+            true
+    );
+    public static final Block CARVED_WARPED_PLANKS = register(
+            "carved_warped_planks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS),
+            true
+    );
+    public static final Block OAK_FLOORING = register(
+            "oak_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS),
+            true
+    );
+    public static final Block SPRUCE_FLOORING = register(
+            "spruce_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS),
+            true
+    );
+    public static final Block BIRCH_FLOORING = register(
+            "birch_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS),
+            true
+    );
+    public static final Block JUNGLE_FLOORING = register(
+            "jungle_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS),
+            true
+    );
+    public static final Block ACACIA_FLOORING = register(
+            "acacia_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS),
+            true
+    );
+    public static final Block DARK_OAK_FLOORING = register(
+            "dark_oak_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS),
+            true
+    );
+    public static final Block MANGROVE_FLOORING = register(
+            "mangrove_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MANGROVE_PLANKS),
+            true
+    );
+    public static final Block CHERRY_FLOORING = register(
+            "cherry_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_PLANKS),
+            true
+    );
+    public static final Block CRIMSON_FLOORING = register(
+            "crimson_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS),
+            true
+    );
+    public static final Block WARPED_FLOORING = register(
+            "warped_flooring",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS),
+            true
+    );
+    public static final Block OAK_FLOORING_SLAB = register(
+            "oak_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FLOORING),
+            true
+    );
+    public static final Block SPRUCE_FLOORING_SLAB = register(
+            "spruce_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_FLOORING),
+            true
+    );
+    public static final Block BIRCH_FLOORING_SLAB = register(
+            "birch_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_FLOORING),
+            true
+    );
+    public static final Block JUNGLE_FLOORING_SLAB = register(
+            "jungle_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_FLOORING),
+            true
+    );
+    public static final Block ACACIA_FLOORING_SLAB = register(
+            "acacia_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_FLOORING),
+            true
+    );
+    public static final Block DARK_OAK_FLOORING_SLAB = register(
+            "dark_oak_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FLOORING),
+            true
+    );
+    public static final Block MANGROVE_FLOORING_SLAB = register(
+            "mangrove_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MANGROVE_FLOORING),
+            true
+    );
+    public static final Block CHERRY_FLOORING_SLAB = register(
+            "cherry_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_FLOORING),
+            true
+    );
+    public static final Block CRIMSON_FLOORING_SLAB = register(
+            "crimson_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_FLOORING),
+            true
+    );
+    public static final Block WARPED_FLOORING_SLAB = register(
+            "warped_flooring_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_FLOORING),
+            true
+    );
+    public static final Block INFESTED_MOSSY_COBBLESTONE = register(
+            "infested_mossy_cobblestone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block COBBLESTONE_BRICKS = register(
+            "cobblestone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE),
+            true
+    );
+    public static final Block INFESTED_COBBLESTONE_BRICKS = register(
+            "infested_cobblestone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_BRICKS),
+            true
+    );
+    public static final Block COBBLESTONE_BRICK_SLAB = register(
+            "cobblestone_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_BRICKS),
+            true
+    );
+    public static final Block COBBLESTONE_BRICK_WALL = register(
+            "cobblestone_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_BRICKS),
+            true
+    );
+    public static final Block MOSSY_COBBLESTONE_BRICKS = register(
+            "mossy_cobblestone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block INFESTED_MOSSY_COBBLESTONE_BRICKS = register(
+            "infested_mossy_cobblestone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE_BRICKS),
+            true
+    );
+    public static final Block MOSSY_COBBLESTONE_BRICK_SLAB = register(
+            "mossy_cobblestone_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE_BRICKS),
+            true
+    );
+    public static final Block MOSSY_COBBLESTONE_BRICK_WALL = register(
+            "mossy_cobblestone_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE_BRICKS),
+            true
+    );
+    public static final Block POLISHED_COBBLESTONE = register(
+            "polished_cobblestone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE),
+            true
+    );
+    public static final Block POLISHED_COBBLESTONE_SLAB = register(
+            "polished_cobblestone_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_COBBLESTONE),
+            true
+    );
+    public static final Block POLISHED_COBBLESTONE_WALL = register(
+            "polished_cobblestone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_COBBLESTONE),
+            true
+    );
+    public static final Block COBBLESTONE_TILES = register(
+            "cobblestone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE),
+            true
+    );
+    public static final Block COBBLESTONE_TILE_SLAB = register(
+            "cobblestone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_TILES),
+            true
+    );
+    public static final Block COBBLESTONE_TILE_WALL = register(
+            "cobblestone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_TILES),
+            true
+    );
+    public static final Block POLISHED_MOSSY_COBBLESTONE = register(
+            "polished_mossy_cobblestone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block POLISHED_MOSSY_COBBLESTONE_SLAB = register(
+            "polished_mossy_cobblestone_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block POLISHED_MOSSY_COBBLESTONE_WALL = register(
+            "polished_mossy_cobblestone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block MOSSY_COBBLESTONE_TILES = register(
+            "mossy_cobblestone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block MOSSY_COBBLESTONE_TILE_SLAB = register(
+            "mossy_cobblestone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE_TILES),
+            true
+    );
+    public static final Block MOSSY_COBBLESTONE_TILE_WALL = register(
+            "mossy_cobblestone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE_TILES),
+            true
+    );
+    public static final Block INFESTED_COBBLESTONE_TILES = register(
+            "infested_cobblestone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLESTONE_TILES),
+            true
+    );
+    public static final Block INFESTED_MOSSY_COBBLESTONE_TILES = register(
+            "infested_mossy_cobblestone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE_TILES),
+            true
+    );
+    public static final Block INFESTED_POLISHED_COBBLESTONE = register(
+            "infested_polished_cobblestone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_COBBLESTONE),
+            true
+    );
+    public static final Block INFESTED_POLISHED_MOSSY_COBBLESTONE = register(
+            "infested_polished_mossy_cobblestone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_MOSSY_COBBLESTONE),
+            true
+    );
+    public static final Block MOSSY_CRACKED_STONE_BRICKS = register(
+            "mossy_cracked_stone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CRACKED_STONE_BRICKS),
+            true
+    );
+    public static final Block INFESTED_MOSSY_CRACKED_STONE_BRICKS = register(
+            "infested_mossy_cracked_stone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_CRACKED_STONE_BRICKS),
+            true
+    );
+    public static final Block MOSSY_CHISELED_STONE_BRICKS = register(
+            "mossy_chiseled_stone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CHISELED_STONE_BRICKS),
+            true
+    );
+    public static final Block INFESTED_MOSSY_CHISELED_STONE_BRICKS = register(
+            "infested_mossy_chiseled_stone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_CHISELED_STONE_BRICKS),
+            true
+    );
+    public static final Block STONE_TILES = register(
+            "stone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE),
+            true
+    );
+    public static final Block INFESTED_STONE_TILES = register(
+            "infested_stone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_TILES),
+            true
+    );
+    public static final Block STONE_TILE_SLAB = register(
+            "stone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_TILES),
+            true
+    );
+    public static final Block STONE_TILE_WALL = register(
+            "stone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_TILES),
+            true
+    );
+    public static final Block MOSSY_STONE_TILES = register(
+            "mossy_stone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_STONE_BRICKS),
+            true
+    );
+    public static final Block INFESTED_MOSSY_STONE_TILES = register(
+            "infested_mossy_stone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_STONE_TILES),
+            true
+    );
+    public static final Block MOSSY_STONE_TILE_SLAB = register(
+            "mossy_stone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_STONE_TILES),
+            true
+    );
+    public static final Block MOSSY_STONE_TILE_WALL = register(
+            "mossy_stone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_STONE_TILES),
+            true
+    );
+    public static final Block POLISHED_ANDESITE_WALL = register(
+            "polished_andesite_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ANDESITE),
+            true
+    );
+    public static final Block CHISELED_ANDESITE = register(
+            "chiseled_andesite",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ANDESITE),
+            true
+    );
+    public static final Block ANDESITE_BRICKS = register(
+            "andesite_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ANDESITE),
+            true
+    );
+    public static final Block ANDESITE_BRICK_SLAB = register(
+            "andesite_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ANDESITE_BRICKS),
+            true
+    );
+    public static final Block ANDESITE_BRICK_WALL = register(
+            "andesite_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ANDESITE_BRICKS),
+            true
+    );
+    public static final Block ANDESITE_TILES = register(
+            "andesite_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ANDESITE),
+            true
+    );
+    public static final Block ANDESITE_TILE_SLAB = register(
+            "andesite_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ANDESITE_TILES),
+            true
+    );
+    public static final Block ANDESITE_TILE_WALL = register(
+            "andesite_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ANDESITE_TILES),
+            true
+    );
+    public static final Block POLISHED_DIORITE_WALL = register(
+            "polished_diorite_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DIORITE),
+            true
+    );
+    public static final Block CHISELED_DIORITE = register(
+            "chiseled_diorite",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DIORITE),
+            true
+    );
+    public static final Block DIORITE_BRICKS = register(
+            "diorite_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DIORITE),
+            true
+    );
+    public static final Block DIORITE_BRICK_SLAB = register(
+            "diorite_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DIORITE_BRICKS),
+            true
+    );
+    public static final Block DIORITE_BRICK_WALL = register(
+            "diorite_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DIORITE_BRICKS),
+            true
+    );
+    public static final Block DIORITE_TILES = register(
+            "diorite_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DIORITE),
+            true
+    );
+    public static final Block DIORITE_TILE_SLAB = register(
+            "diorite_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DIORITE_TILES),
+            true
+    );
+    public static final Block DIORITE_TILE_WALL = register(
+            "diorite_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DIORITE_TILES),
+            true
+    );
+    public static final Block POLISHED_GRANITE_WALL = register(
+            "polished_granite_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_GRANITE),
+            true
+    );
+    public static final Block CHISELED_GRANITE = register(
+            "chiseled_granite",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_GRANITE),
+            true
+    );
+    public static final Block GRANITE_BRICKS = register(
+            "granite_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_GRANITE),
+            true
+    );
+    public static final Block GRANITE_BRICK_SLAB = register(
+            "granite_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRANITE_BRICKS),
+            true
+    );
+    public static final Block GRANITE_BRICK_WALL = register(
+            "granite_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRANITE_BRICKS),
+            true
+    );
+    public static final Block GRANITE_TILES = register(
+            "granite_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_GRANITE),
+            true
+    );
+    public static final Block GRANITE_TILE_SLAB = register(
+            "granite_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRANITE_TILES),
+            true
+    );
+    public static final Block GRANITE_TILE_WALL = register(
+            "granite_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRANITE_TILES),
+            true
+    );
+    public static final Block DRIPSTONE_SLAB = register(
+            "dripstone_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK),
+            true
+    );
+    public static final Block DRIPSTONE_WALL = register(
+            "dripstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK),
+            true
+    );
+    public static final Block POLISHED_DRIPSTONE = register(
+            "polished_dripstone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK),
+            true
+    );
+    public static final Block POLISHED_DRIPSTONE_SLAB = register(
+            "polished_dripstone_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DRIPSTONE),
+            true
+    );
+    public static final Block POLISHED_DRIPSTONE_WALL = register(
+            "polished_dripstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DRIPSTONE),
+            true
+    );
+    public static final Block CHISELED_DRIPSTONE = register(
+            "chiseled_dripstone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK),
+            true
+    );
+    public static final Block DRIPSTONE_BRICKS = register(
+            "dripstone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK),
+            true
+    );
+    public static final Block DRIPSTONE_BRICK_SLAB = register(
+            "dripstone_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BRICKS),
+            true
+    );
+    public static final Block DRIPSTONE_BRICK_WALL = register(
+            "dripstone_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BRICKS),
+            true
+    );
+    public static final Block DRIPSTONE_TILES = register(
+            "dripstone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK),
+            true
+    );
+    public static final Block DRIPSTONE_TILE_SLAB = register(
+            "dripstone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_TILES),
+            true
+    );
+    public static final Block DRIPSTONE_TILE_WALL = register(
+            "dripstone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_TILES),
+            true
+    );
+    public static final Block PRISMARINE_BRICK_WALL = register(
+            "prismarine_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PRISMARINE_BRICKS),
+            true
+    );
+    public static final Block DARK_PRISMARINE_WALL = register(
+            "dark_prismarine_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_PRISMARINE),
+            true
+    );
+    public static final Block SMOOTH_SANDSTONE_WALL = register(
+            "smooth_sandstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_SANDSTONE),
+            true
+    );
+    public static final Block CUT_SANDSTONE_WALL = register(
+            "cut_sandstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_SANDSTONE),
+            true
+    );
+    public static final Block SANDSTONE_BRICKS = register(
+            "sandstone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE),
+            true
+    );
+    public static final Block SANDSTONE_BRICK_SLAB = register(
+            "sandstone_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE_BRICKS),
+            true
+    );
+    public static final Block SANDSTONE_BRICK_WALL = register(
+            "sandstone_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE_BRICKS),
+            true
+    );
+    public static final Block SANDSTONE_TILES = register(
+            "sandstone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE),
+            true
+    );
+    public static final Block SANDSTONE_TILE_SLAB = register(
+            "sandstone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE_TILES),
+            true
+    );
+    public static final Block SANDSTONE_TILE_WALL = register(
+            "sandstone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE_TILES),
+            true
+    );
+    public static final Block SMOOTH_RED_SANDSTONE_WALL = register(
+            "smooth_red_sandstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_RED_SANDSTONE),
+            true
+    );
+    public static final Block CUT_RED_SANDSTONE_WALL = register(
+            "cut_red_sandstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_RED_SANDSTONE),
+            true
+    );
+    public static final Block RED_SANDSTONE_BRICKS = register(
+            "red_sandstone_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_SANDSTONE),
+            true
+    );
+    public static final Block RED_SANDSTONE_BRICK_SLAB = register(
+            "red_sandstone_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_SANDSTONE_BRICKS),
+            true
+    );
+    public static final Block RED_SANDSTONE_BRICK_WALL = register(
+            "red_sandstone_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_SANDSTONE_BRICKS),
+            true
+    );
+    public static final Block RED_SANDSTONE_TILES = register(
+            "red_sandstone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_SANDSTONE),
+            true
+    );
+    public static final Block RED_SANDSTONE_TILE_SLAB = register(
+            "red_sandstone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_SANDSTONE_TILES),
+            true
+    );
+    public static final Block RED_SANDSTONE_TILE_WALL = register(
+            "red_sandstone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_SANDSTONE_TILES),
+            true
+    );
+    public static final Block DEEPSLATE_SLAB = register(
+            "deepslate_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE),
+            true
+    );
+    public static final Block DEEPSLATE_WALL = register(
+            "deepslate_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE),
+            true
+    );
+    public static final Block TUFF_TILES = register(
+            "tuff_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF),
+            true
+    );
+    public static final Block TUFF_TILE_SLAB = register(
+            "tuff_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF_TILES),
+            true
+    );
+    public static final Block TUFF_TILE_WALL = register(
+            "tuff_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF_TILES),
+            true
+    );
+    public static final Block CALCITE_SLAB = register(
+            "calcite_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE),
+            true
+    );
+    public static final Block CALCITE_WALL = register(
+            "calcite_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE),
+            true
+    );
+    public static final Block CHISELED_CALCITE = register(
+            "chiseled_calcite",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE),
+            true
+    );
+    public static final Block POLISHED_CALCITE = register(
+            "polished_calcite",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE),
+            true
+    );
+    public static final Block POLISHED_CALCITE_SLAB = register(
+            "polished_calcite_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_CALCITE),
+            true
+    );
+    public static final Block POLISHED_CALCITE_WALL = register(
+            "polished_calcite_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_CALCITE),
+            true
+    );
+    public static final Block CALCITE_BRICKS = register(
+            "calcite_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE),
+            true
+    );
+    public static final Block CALCITE_BRICK_SLAB = register(
+            "calcite_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE_BRICKS),
+            true
+    );
+    public static final Block CALCITE_BRICK_WALL = register(
+            "calcite_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE_BRICKS),
+            true
+    );
+    public static final Block CALCITE_TILES = register(
+            "calcite_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE),
+            true
+    );
+    public static final Block CALCITE_TILE_SLAB = register(
+            "calcite_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE_TILES),
+            true
+    );
+    public static final Block CALCITE_TILE_WALL = register(
+            "calcite_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE_TILES),
+            true
+    );
+    public static final Block LARGE_CHAIN = register(
+            "large_chain",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN),
+            true
+    );
+    public static final Block PACKED_MUD_SLAB = register(
+            "packed_mud_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD),
+            true
+    );
+    public static final Block PACKED_MUD_WALL = register(
+            "packed_mud_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD),
+            true
+    );
+    public static final Block MUD_TILES = register(
+            "mud_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD),
+            true
+    );
+    public static final Block MUD_TILE_SLAB = register(
+            "mud_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MUD_TILES),
+            true
+    );
+    public static final Block MUD_TILE_WALL = register(
+            "mud_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MUD_TILES),
+            true
+    );
+    public static final Block CHISELED_MUD_BRICKS = register(
+            "chiseled_mud_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MUD_BRICKS),
+            true
+    );
+    public static final Block SMOOTH_MUD = register(
+            "smooth_mud",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MUD_BRICKS),
+            true
+    );
+    public static final Block SMOOTH_MUD_SLAB = register(
+            "smooth_mud_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_MUD),
+            true
+    );
+    public static final Block SMOOTH_MUD_WALL = register(
+            "smooth_mud_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_MUD),
+            true
+    );
+    public static final Block SMOOTH_MUD_PRESSURE_PLATE = register(
+            "smooth_mud_pressure_plate",
+            Pressure_plateBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD),
+            true
+    );
+    public static final Block SMOOTH_MUD_BUTTON = register(
+            "smooth_mud_button",
+            ButtonBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD),
+            true
+    );
+    public static final Block CHISELED_OBSIDIAN = register(
+            "chiseled_obsidian",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN),
+            true
+    );
+    public static final Block POLISHED_OBSIDIAN = register(
+            "polished_obsidian",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN),
+            true
+    );
+    public static final Block POLISHED_OBSIDIAN_SLAB = register(
+            "polished_obsidian_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_OBSIDIAN),
+            true
+    );
+    public static final Block POLISHED_OBSIDIAN_WALL = register(
+            "polished_obsidian_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_OBSIDIAN),
+            true
+    );
+    public static final Block OBSIDIAN_BRICKS = register(
+            "obsidian_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN),
+            true
+    );
+    public static final Block OBSIDIAN_BRICK_SLAB = register(
+            "obsidian_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN_BRICKS),
+            true
+    );
+    public static final Block OBSIDIAN_BRICK_WALL = register(
+            "obsidian_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN_BRICKS),
+            true
+    );
+    public static final Block OBSIDIAN_TILES = register(
+            "obsidian_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN),
+            true
+    );
+    public static final Block OBSIDIAN_TILE_SLAB = register(
+            "obsidian_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN_TILES),
+            true
+    );
+    public static final Block OBSIDIAN_TILE_WALL = register(
+            "obsidian_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN_TILES),
+            true
+    );
+    public static final Block CRACKED_RED_NETHER_BRICKS = register(
+            "cracked_red_nether_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_NETHER_BRICKS),
+            true
+    );
+    public static final Block CHISELED_RED_NETHER_BRICKS = register(
+            "chiseled_red_nether_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_NETHER_BRICKS),
+            true
+    );
+    public static final Block RED_NETHER_BRICK_FENCE = register(
+            "red_nether_brick_fence",
+            FenceBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_NETHER_BRICKS),
+            true
+    );
+    public static final Block END_STONE_SLAB = register(
+            "end_stone_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE),
+            true
+    );
+    public static final Block END_STONE_WALL = register(
+            "end_stone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE),
+            true
+    );
+    public static final Block CHISELED_END_STONE = register(
+            "chiseled_end_stone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE),
+            true
+    );
+    public static final Block POLISHED_END_STONE = register(
+            "polished_end_stone",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE),
+            true
+    );
+    public static final Block POLISHED_END_STONE_SLAB = register(
+            "polished_end_stone_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_END_STONE),
+            true
+    );
+    public static final Block POLISHED_END_STONE_WALL = register(
+            "polished_end_stone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_END_STONE),
+            true
+    );
+    public static final Block END_STONE_TILES = register(
+            "end_stone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE),
+            true
+    );
+    public static final Block END_STONE_TILE_SLAB = register(
+            "end_stone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE_TILES),
+            true
+    );
+    public static final Block END_STONE_TILE_WALL = register(
+            "end_stone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE_TILES),
+            true
+    );
+    public static final Block CHISELED_PURPUR = register(
+            "chiseled_purpur",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK),
+            true
+    );
+    public static final Block POLISHED_PURPUR = register(
+            "polished_purpur",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK),
+            true
+    );
+    public static final Block POLISHED_PURPUR_SLAB = register(
+            "polished_purpur_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_PURPUR),
+            true
+    );
+    public static final Block POLISHED_PURPUR_WALL = register(
+            "polished_purpur_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_PURPUR),
+            true
+    );
+    public static final Block PURPUR_BRICKS = register(
+            "purpur_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK),
+            true
+    );
+    public static final Block PURPUR_BRICK_SLAB = register(
+            "purpur_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BRICKS),
+            true
+    );
+    public static final Block PURPUR_BRICK_WALL = register(
+            "purpur_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BRICKS),
+            true
+    );
+    public static final Block PURPUR_TILE_WALL = register(
+            "purpur_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK),
+            true
+    );
+    public static final Block BLACKSTONE_TILES = register(
+            "blackstone_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE),
+            true
+    );
+    public static final Block BLACKSTONE_TILE_SLAB = register(
+            "blackstone_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE_TILES),
+            true
+    );
+    public static final Block BLACKSTONE_TILE_WALL = register(
+            "blackstone_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE_TILES),
+            true
+    );
+    public static final Block SMOOTH_BASALT_SLAB = register(
+            "smooth_basalt_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block SMOOTH_BASALT_WALL = register(
+            "smooth_basalt_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block POLISHED_SMOOTH_BASALT = register(
+            "polished_smooth_basalt",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block POLISHED_SMOOTH_BASALT_SLAB = register(
+            "polished_smooth_basalt_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_SMOOTH_BASALT),
+            true
+    );
+    public static final Block POLISHED_SMOOTH_BASALT_WALL = register(
+            "polished_smooth_basalt_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_SMOOTH_BASALT),
+            true
+    );
+    public static final Block SMOOTH_BASALT_BRICKS = register(
+            "smooth_basalt_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block SMOOTH_BASALT_BRICK_SLAB = register(
+            "smooth_basalt_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT_BRICKS),
+            true
+    );
+    public static final Block SMOOTH_BASALT_BRICK_WALL = register(
+            "smooth_basalt_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT_BRICKS),
+            true
+    );
+    public static final Block CRACKED_SMOOTH_BASALT_BRICKS = register(
+            "cracked_smooth_basalt_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block CHISELED_SMOOTH_BASALT = register(
+            "chiseled_smooth_basalt",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block SMOOTH_BASALT_TILES = register(
+            "smooth_basalt_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT),
+            true
+    );
+    public static final Block SMOOTH_BASALT_TILE_SLAB = register(
+            "smooth_basalt_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT_TILES),
+            true
+    );
+    public static final Block SMOOTH_BASALT_TILE_WALL = register(
+            "smooth_basalt_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_BASALT_TILES),
+            true
+    );
+    public static final Block CARVED_SNOW = register(
+            "carved_snow",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SNOW_BLOCK),
+            true
+    );
+    public static final Block PACKED_SNOW = register(
+            "packed_snow",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SNOW_BLOCK),
+            true
+    );
+    public static final Block PACKED_SNOW_SLAB = register(
+            "packed_snow_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_SNOW),
+            true
+    );
+    public static final Block PACKED_SNOW_WALL = register(
+            "packed_snow_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_SNOW),
+            true
+    );
+    public static final Block SNOW_BRICKS = register(
+            "snow_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SNOW_BLOCK),
+            true
+    );
+    public static final Block SNOW_BRICK_SLAB = register(
+            "snow_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SNOW_BRICKS),
+            true
+    );
+    public static final Block SNOW_BRICK_WALL = register(
+            "snow_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SNOW_BRICKS),
+            true
+    );
+    public static final Block POLISHED_ICE = register(
+            "polished_ice",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE),
+            true
+    );
+    public static final Block POLISHED_ICE_SLAB = register(
+            "polished_ice_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ICE),
+            true
+    );
+    public static final Block POLISHED_ICE_WALL = register(
+            "polished_ice_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ICE),
+            true
+    );
+    public static final Block ICE_BRICKS = register(
+            "ice_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE),
+            true
+    );
+    public static final Block ICE_BRICK_SLAB = register(
+            "ice_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE_BRICKS),
+            true
+    );
+    public static final Block ICE_BRICK_WALL = register(
+            "ice_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE_BRICKS),
+            true
+    );
+    public static final Block ICE_TILES = register(
+            "ice_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE),
+            true
+    );
+    public static final Block ICE_TILE_SLAB = register(
+            "ice_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE_TILES),
+            true
+    );
+    public static final Block ICE_TILE_WALL = register(
+            "ice_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE_TILES),
+            true
+    );
+    public static final Block CHISELED_ICE = register(
+            "chiseled_ice",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ICE),
+            true
+    );
+    public static final Block POLISHED_PACKED_ICE = register(
+            "polished_packed_ice",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    );
+    public static final Block POLISHED_PACKED_ICE_SLAB = register(
+            "polished_packed_ice_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    );
+    public static final Block POLISHED_PACKED_ICE_WALL = register(
+            "polished_packed_ice_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    );
+    public static final Block PACKED_ICE_BRICKS = register(
+            "packed_ice_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    );
+    public static final Block PACKED_ICE_BRICK_SLAB = register(
+            "packed_ice_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE_BRICKS),
+            true
+    );
+    public static final Block PACKED_ICE_BRICK_WALL = register(
+            "packed_ice_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE_BRICKS),
+            true
+    );
+    public static final Block PACKED_ICE_TILES = register(
+            "packed_ice_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    );
+    public static final Block PACKED_ICE_TILE_SLAB = register(
+            "packed_ice_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE_TILES),
+            true
+    );
+    public static final Block PACKED_ICE_TILE_WALL = register(
+            "packed_ice_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE_TILES),
+            true
+    );
+    public static final Block CHISELED_PACKED_ICE = register(
+            "chiseled_packed_ice",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    );
+    public static final Block POLISHED_BLUE_ICE = register(
+            "polished_blue_ice",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
+            true
+    );
+    public static final Block POLISHED_BLUE_ICE_SLAB = register(
+            "polished_blue_ice_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
+            true
+    );
+    public static final Block POLISHED_BLUE_ICE_WALL = register(
+            "polished_blue_ice_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
+            true
+    );
+    public static final Block BLUE_ICE_BRICKS = register(
+            "blue_ice_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
+            true
+    );
+    public static final Block BLUE_ICE_BRICK_SLAB = register(
+            "blue_ice_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE_BRICKS),
+            true
+    );
+    public static final Block BLUE_ICE_BRICK_WALL = register(
+            "blue_ice_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE_BRICKS),
+            true
+    );
+    public static final Block BLUE_ICE_TILES = register(
+            "blue_ice_tiles",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
+            true
+    );
+    public static final Block BLUE_ICE_TILE_SLAB = register(
+            "blue_ice_tile_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE_TILES),
+            true
+    );
+    public static final Block BLUE_ICE_TILE_WALL = register(
+            "blue_ice_tile_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE_TILES),
+            true
+    );
+    public static final Block CHISELED_BLUE_ICE = register(
+            "chiseled_blue_ice",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
+            true
+    );
+    public static final Block WHITE_THREADED_WOOL = register(
+            "white_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL),
+            true
+    );
+    public static final Block WHITE_THREADED_CARPET = register(
+            "white_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CARPET),
+            true
+    );
+    public static final Block LIGHT_GRAY_THREADED_WOOL = register(
+            "light_gray_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_WOOL),
+            true
+    );
+    public static final Block LIGHT_GRAY_THREADED_CARPET = register(
+            "light_gray_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_CARPET),
+            true
+    );
+    public static final Block GRAY_THREADED_WOOL = register(
+            "gray_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_WOOL),
+            true
+    );
+    public static final Block GRAY_THREADED_CARPET = register(
+            "gray_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_CARPET),
+            true
+    );
+    public static final Block BLACK_THREADED_WOOL = register(
+            "black_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_WOOL),
+            true
+    );
+    public static final Block BLACK_THREADED_CARPET = register(
+            "black_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_CARPET),
+            true
+    );
+    public static final Block BROWN_THREADED_WOOL = register(
+            "brown_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_WOOL),
+            true
+    );
+    public static final Block BROWN_THREADED_CARPET = register(
+            "brown_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_CARPET),
+            true
+    );
+    public static final Block RED_THREADED_WOOL = register(
+            "red_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_WOOL),
+            true
+    );
+    public static final Block RED_THREADED_CARPET = register(
+            "red_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_CARPET),
+            true
+    );
+    public static final Block ORANGE_THREADED_WOOL = register(
+            "orange_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_WOOL),
+            true
+    );
+    public static final Block ORANGE_THREADED_CARPET = register(
+            "orange_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_CARPET),
+            true
+    );
+    public static final Block YELLOW_THREADED_WOOL = register(
+            "yellow_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_WOOL),
+            true
+    );
+    public static final Block YELLOW_THREADED_CARPET = register(
+            "yellow_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_CARPET),
+            true
+    );
+    public static final Block LIME_THREADED_WOOL = register(
+            "lime_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_WOOL),
+            true
+    );
+    public static final Block LIME_THREADED_CARPET = register(
+            "lime_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_CARPET),
+            true
+    );
+    public static final Block GREEN_THREADED_WOOL = register(
+            "green_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_WOOL),
+            true
+    );
+    public static final Block GREEN_THREADED_CARPET = register(
+            "green_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_CARPET),
+            true
+    );
+    public static final Block CYAN_THREADED_WOOL = register(
+            "cyan_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_WOOL),
+            true
+    );
+    public static final Block CYAN_THREADED_CARPET = register(
+            "cyan_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_CARPET),
+            true
+    );
+    public static final Block LIGHT_BLUE_THREADED_WOOL = register(
+            "light_blue_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_WOOL),
+            true
+    );
+    public static final Block LIGHT_BLUE_THREADED_CARPET = register(
+            "light_blue_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_CARPET),
+            true
+    );
+    public static final Block BLUE_THREADED_WOOL = register(
+            "blue_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_WOOL),
+            true
+    );
+    public static final Block BLUE_THREADED_CARPET = register(
+            "blue_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_CARPET),
+            true
+    );
+    public static final Block PURPLE_THREADED_WOOL = register(
+            "purple_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_WOOL),
+            true
+    );
+    public static final Block PURPLE_THREADED_CARPET = register(
+            "purple_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_CARPET),
+            true
+    );
+    public static final Block MAGENTA_THREADED_WOOL = register(
+            "magenta_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_WOOL),
+            true
+    );
+    public static final Block MAGENTA_THREADED_CARPET = register(
+            "magenta_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_CARPET),
+            true
+    );
+    public static final Block PINK_THREADED_WOOL = register(
+            "pink_threaded_wool",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_WOOL),
+            true
+    );
+    public static final Block PINK_THREADED_CARPET = register(
+            "pink_threaded_carpet",
+            CarpetBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CARPET),
+            true
+    );
+    public static final Block TERRACOTTA_SLAB = register(
+            "terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA),
+            true
+    );
+    public static final Block TERRACOTTA_WALL = register(
+            "terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA),
+            true
+    );
+    public static final Block LIGHT_GRAY_TERRACOTTA_SLAB = register(
+            "light_gray_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_TERRACOTTA),
+            true
+    );
+    public static final Block LIGHT_GRAY_TERRACOTTA_WALL = register(
+            "light_gray_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_TERRACOTTA),
+            true
+    );
+    public static final Block GRAY_TERRACOTTA_SLAB = register(
+            "gray_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_TERRACOTTA),
+            true
+    );
+    public static final Block GRAY_TERRACOTTA_WALL = register(
+            "gray_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_TERRACOTTA),
+            true
+    );
+    public static final Block BLACK_TERRACOTTA_SLAB = register(
+            "black_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_TERRACOTTA),
+            true
+    );
+    public static final Block BLACK_TERRACOTTA_WALL = register(
+            "black_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_TERRACOTTA),
+            true
+    );
+    public static final Block WHITE_TERRACOTTA_SLAB = register(
+            "white_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_TERRACOTTA),
+            true
+    );
+    public static final Block WHITE_TERRACOTTA_WALL = register(
+            "white_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_TERRACOTTA),
+            true
+    );
+    public static final Block BROWN_TERRACOTTA_SLAB = register(
+            "brown_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_TERRACOTTA),
+            true
+    );
+    public static final Block BROWN_TERRACOTTA_WALL = register(
+            "brown_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_TERRACOTTA),
+            true
+    );
+    public static final Block RED_TERRACOTTA_SLAB = register(
+            "red_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_TERRACOTTA),
+            true
+    );
+    public static final Block RED_TERRACOTTA_WALL = register(
+            "red_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_TERRACOTTA),
+            true
+    );
+    public static final Block ORANGE_TERRACOTTA_SLAB = register(
+            "orange_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_TERRACOTTA),
+            true
+    );
+    public static final Block ORANGE_TERRACOTTA_WALL = register(
+            "orange_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_TERRACOTTA),
+            true
+    );
+    public static final Block YELLOW_TERRACOTTA_SLAB = register(
+            "yellow_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_TERRACOTTA),
+            true
+    );
+    public static final Block YELLOW_TERRACOTTA_WALL = register(
+            "yellow_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_TERRACOTTA),
+            true
+    );
+    public static final Block LIME_TERRACOTTA_SLAB = register(
+            "lime_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_TERRACOTTA),
+            true
+    );
+    public static final Block LIME_TERRACOTTA_WALL = register(
+            "lime_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_TERRACOTTA),
+            true
+    );
+    public static final Block GREEN_TERRACOTTA_SLAB = register(
+            "green_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_TERRACOTTA),
+            true
+    );
+    public static final Block GREEN_TERRACOTTA_WALL = register(
+            "green_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_TERRACOTTA),
+            true
+    );
+    public static final Block CYAN_TERRACOTTA_SLAB = register(
+            "cyan_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_TERRACOTTA),
+            true
+    );
+    public static final Block CYAN_TERRACOTTA_WALL = register(
+            "cyan_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_TERRACOTTA),
+            true
+    );
+    public static final Block LIGHT_BLUE_TERRACOTTA_SLAB = register(
+            "light_blue_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_TERRACOTTA),
+            true
+    );
+    public static final Block LIGHT_BLUE_TERRACOTTA_WALL = register(
+            "light_blue_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_TERRACOTTA),
+            true
+    );
+    public static final Block BLUE_TERRACOTTA_SLAB = register(
+            "blue_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_TERRACOTTA),
+            true
+    );
+    public static final Block BLUE_TERRACOTTA_WALL = register(
+            "blue_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_TERRACOTTA),
+            true
+    );
+    public static final Block PURPLE_TERRACOTTA_SLAB = register(
+            "purple_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_TERRACOTTA),
+            true
+    );
+    public static final Block PURPLE_TERRACOTTA_WALL = register(
+            "purple_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_TERRACOTTA),
+            true
+    );
+    public static final Block MAGENTA_TERRACOTTA_SLAB = register(
+            "magenta_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_TERRACOTTA),
+            true
+    );
+    public static final Block MAGENTA_TERRACOTTA_WALL = register(
+            "magenta_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_TERRACOTTA),
+            true
+    );
+    public static final Block PINK_TERRACOTTA_SLAB = register(
+            "pink_terracotta_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_TERRACOTTA),
+            true
+    );
+    public static final Block PINK_TERRACOTTA_WALL = register(
+            "pink_terracotta_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_TERRACOTTA),
+            true
+    );
+    public static final Block TERRACOTTA_BRICKS = register(
+            "terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA),
+            true
+    );
+    public static final Block TERRACOTTA_BRICK_SLAB = register(
+            "terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block TERRACOTTA_BRICK_WALL = register(
+            "terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block WHITE_TERRACOTTA_BRICKS = register(
+            "white_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_TERRACOTTA),
+            true
+    );
+    public static final Block WHITE_TERRACOTTA_BRICK_SLAB = register(
+            "white_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block WHITE_TERRACOTTA_BRICK_WALL = register(
+            "white_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block LIGHT_GRAY_TERRACOTTA_BRICKS = register(
+            "light_gray_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_TERRACOTTA),
+            true
+    );
+    public static final Block LIGHT_GRAY_TERRACOTTA_BRICK_SLAB = register(
+            "light_gray_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block LIGHT_GRAY_TERRACOTTA_BRICK_WALL = register(
+            "light_gray_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block GRAY_TERRACOTTA_BRICKS = register(
+            "gray_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_TERRACOTTA),
+            true
+    );
+    public static final Block GRAY_TERRACOTTA_BRICK_SLAB = register(
+            "gray_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block GRAY_TERRACOTTA_BRICK_WALL = register(
+            "gray_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block BLACK_TERRACOTTA_BRICKS = register(
+            "black_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_TERRACOTTA),
+            true
+    );
+    public static final Block BLACK_TERRACOTTA_BRICK_SLAB = register(
+            "black_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block BLACK_TERRACOTTA_BRICK_WALL = register(
+            "black_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block BROWN_TERRACOTTA_BRICKS = register(
+            "brown_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_TERRACOTTA),
+            true
+    );
+    public static final Block BROWN_TERRACOTTA_BRICK_SLAB = register(
+            "brown_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block BROWN_TERRACOTTA_BRICK_WALL = register(
+            "brown_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block RED_TERRACOTTA_BRICKS = register(
+            "red_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_TERRACOTTA),
+            true
+    );
+    public static final Block RED_TERRACOTTA_BRICK_SLAB = register(
+            "red_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block RED_TERRACOTTA_BRICK_WALL = register(
+            "red_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block ORANGE_TERRACOTTA_BRICKS = register(
+            "orange_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_TERRACOTTA),
+            true
+    );
+    public static final Block ORANGE_TERRACOTTA_BRICK_SLAB = register(
+            "orange_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block ORANGE_TERRACOTTA_BRICK_WALL = register(
+            "orange_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block YELLOW_TERRACOTTA_BRICKS = register(
+            "yellow_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_TERRACOTTA),
+            true
+    );
+    public static final Block YELLOW_TERRACOTTA_BRICK_SLAB = register(
+            "yellow_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block YELLOW_TERRACOTTA_BRICK_WALL = register(
+            "yellow_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block LIME_TERRACOTTA_BRICKS = register(
+            "lime_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_TERRACOTTA),
+            true
+    );
+    public static final Block LIME_TERRACOTTA_BRICK_SLAB = register(
+            "lime_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block LIME_TERRACOTTA_BRICK_WALL = register(
+            "lime_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block GREEN_TERRACOTTA_BRICKS = register(
+            "green_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_TERRACOTTA),
+            true
+    );
+    public static final Block GREEN_TERRACOTTA_BRICK_SLAB = register(
+            "green_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block GREEN_TERRACOTTA_BRICK_WALL = register(
+            "green_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block CYAN_TERRACOTTA_BRICKS = register(
+            "cyan_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_TERRACOTTA),
+            true
+    );
+    public static final Block CYAN_TERRACOTTA_BRICK_SLAB = register(
+            "cyan_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block CYAN_TERRACOTTA_BRICK_WALL = register(
+            "cyan_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block LIGHT_BLUE_TERRACOTTA_BRICKS = register(
+            "light_blue_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_TERRACOTTA),
+            true
+    );
+    public static final Block LIGHT_BLUE_TERRACOTTA_BRICK_SLAB = register(
+            "light_blue_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block LIGHT_BLUE_TERRACOTTA_BRICK_WALL = register(
+            "light_blue_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block BLUE_TERRACOTTA_BRICKS = register(
+            "blue_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_TERRACOTTA),
+            true
+    );
+    public static final Block BLUE_TERRACOTTA_BRICK_SLAB = register(
+            "blue_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block BLUE_TERRACOTTA_BRICK_WALL = register(
+            "blue_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block PURPLE_TERRACOTTA_BRICKS = register(
+            "purple_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_TERRACOTTA),
+            true
+    );
+    public static final Block PURPLE_TERRACOTTA_BRICK_SLAB = register(
+            "purple_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block PURPLE_TERRACOTTA_BRICK_WALL = register(
+            "purple_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block MAGENTA_TERRACOTTA_BRICKS = register(
+            "magenta_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_TERRACOTTA),
+            true
+    );
+    public static final Block MAGENTA_TERRACOTTA_BRICK_SLAB = register(
+            "magenta_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block MAGENTA_TERRACOTTA_BRICK_WALL = register(
+            "magenta_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block PINK_TERRACOTTA_BRICKS = register(
+            "pink_terracotta_bricks",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_TERRACOTTA),
+            true
+    );
+    public static final Block PINK_TERRACOTTA_BRICK_SLAB = register(
+            "pink_terracotta_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block PINK_TERRACOTTA_BRICK_WALL = register(
+            "pink_terracotta_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_TERRACOTTA_BRICKS),
+            true
+    );
+    public static final Block GLAZED_TERRACOTTA = register(
+            "glazed_terracotta",
+            Block::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA),
+            true
+    );
+    public static final Block WHITE_CONCRETE_SLAB = register(
+            "white_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE),
+            true
+    );
+    public static final Block WHITE_CONCRETE_WALL = register(
+            "white_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE),
+            true
+    );
+    public static final Block LIGHT_GRAY_CONCRETE_SLAB = register(
+            "light_gray_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_CONCRETE),
+            true
+    );
+    public static final Block LIGHT_GRAY_CONCRETE_WALL = register(
+            "light_gray_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_CONCRETE),
+            true
+    );
+    public static final Block GRAY_CONCRETE_SLAB = register(
+            "gray_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_CONCRETE),
+            true
+    );
+    public static final Block GRAY_CONCRETE_WALL = register(
+            "gray_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_CONCRETE),
+            true
+    );
+    public static final Block BLACK_CONCRETE_SLAB = register(
+            "black_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_CONCRETE),
+            true
+    );
+    public static final Block BLACK_CONCRETE_WALL = register(
+            "black_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_CONCRETE),
+            true
+    );
+    public static final Block BROWN_CONCRETE_SLAB = register(
+            "brown_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_CONCRETE),
+            true
+    );
+    public static final Block BROWN_CONCRETE_WALL = register(
+            "brown_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_CONCRETE),
+            true
+    );
+    public static final Block RED_CONCRETE_SLAB = register(
+            "red_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_CONCRETE),
+            true
+    );
+    public static final Block RED_CONCRETE_WALL = register(
+            "red_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.RED_CONCRETE),
+            true
+    );
+    public static final Block ORANGE_CONCRETE_SLAB = register(
+            "orange_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_CONCRETE),
+            true
+    );
+    public static final Block ORANGE_CONCRETE_WALL = register(
+            "orange_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_CONCRETE),
+            true
+    );
+    public static final Block YELLOW_CONCRETE_SLAB = register(
+            "yellow_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_CONCRETE),
+            true
+    );
+    public static final Block YELLOW_CONCRETE_WALL = register(
+            "yellow_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_CONCRETE),
+            true
+    );
+    public static final Block LIME_CONCRETE_SLAB = register(
+            "lime_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_CONCRETE),
+            true
+    );
+    public static final Block LIME_CONCRETE_WALL = register(
+            "lime_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_CONCRETE),
+            true
+    );
+    public static final Block GREEN_CONCRETE_SLAB = register(
+            "green_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_CONCRETE),
+            true
+    );
+    public static final Block GREEN_CONCRETE_WALL = register(
+            "green_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_CONCRETE),
+            true
+    );
+    public static final Block CYAN_CONCRETE_SLAB = register(
+            "cyan_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_CONCRETE),
+            true
+    );
+    public static final Block CYAN_CONCRETE_WALL = register(
+            "cyan_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_CONCRETE),
+            true
+    );
+    public static final Block LIGHT_BLUE_CONCRETE_SLAB = register(
+            "light_blue_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_CONCRETE),
+            true
+    );
+    public static final Block LIGHT_BLUE_CONCRETE_WALL = register(
+            "light_blue_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_CONCRETE),
+            true
+    );
+    public static final Block BLUE_CONCRETE_SLAB = register(
+            "blue_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_CONCRETE),
+            true
+    );
+    public static final Block BLUE_CONCRETE_WALL = register(
+            "blue_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_CONCRETE),
+            true
+    );
+    public static final Block PURPLE_CONCRETE_SLAB = register(
+            "purple_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_CONCRETE),
+            true
+    );
+    public static final Block PURPLE_CONCRETE_WALL = register(
+            "purple_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_CONCRETE),
+            true
+    );
+    public static final Block MAGENTA_CONCRETE_SLAB = register(
+            "magenta_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_CONCRETE),
+            true
+    );
+    public static final Block MAGENTA_CONCRETE_WALL = register(
+            "magenta_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_CONCRETE),
+            true
+    );
+    public static final Block PINK_CONCRETE_SLAB = register(
+            "pink_concrete_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CONCRETE),
+            true
+    );
+    public static final Block PINK_CONCRETE_WALL = register(
+            "pink_concrete_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CONCRETE),
+            true
+    );

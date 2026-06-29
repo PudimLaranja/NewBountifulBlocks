@@ -1,0 +1,2464 @@
+# defaults are
+# type = "block"
+
+[stone_wall]
+type = "wall"
+copies = "stone"
+tool = "pickaxe"
+
+[chiseled_smooth_stone]
+copies = "smooth_stone"
+tool = "pickaxe"
+
+[smooth_stone_stairs]
+type = "stairs"
+copies = "smooth_stone"
+tool = "pickaxe"
+
+[smooth_stone_wall]
+type = "wall"
+copies = "smooth_stone"
+tool = "pickaxe"
+
+[smooth_stone_bricks]
+copies = "smooth_stone"
+tool = "pickaxe"
+
+[smooth_stone_brick_stairs]
+type = "stairs"
+copies = "smooth_stone_bricks"
+tool = "pickaxe"
+
+[smooth_stone_brick_slab]
+type = "slab"
+copies = "smooth_stone_bricks"
+tool = "pickaxe"
+
+[smooth_stone_brick_wall]
+type = "wall"
+copies = "smooth_stone_bricks"
+tool = "pickaxe"
+
+[smooth_stone_tiles]
+copies = "smooth_stone"
+tool = "pickaxe"
+
+[smooth_stone_tile_stairs]
+type = "stairs"
+copies = "smooth_stone_tiles"
+tool = "pickaxe"
+
+[smooth_stone_tile_slab]
+type = "slab"
+copies = "smooth_stone_tiles"
+tool = "pickaxe"
+
+[smooth_stone_tiles_wall]
+type = "wall"
+copies = "smooth_stone_tiles"
+tool = "pickaxe"
+
+
+[carved_oak_planks]
+copies = "oak_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_spruce_planks]
+copies = "spruce_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_birch_planks]
+copies = "birch_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_jungle_planks]
+copies = "jungle_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_acacia_planks]
+copies = "acacia_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_dark_oak_planks]
+copies = "dark_oak_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_mangrove_planks]
+copies = "mangrove_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_cherry_planks]
+copies = "cherry_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_bamboo_planks]
+copies = "bamboo_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_crimson_planks]
+copies = "crimson_planks"
+type = "pillar"
+tool = "axe"
+
+[carved_warped_planks]
+copies = "warped_planks"
+type = "pillar"
+tool = "axe"
+
+[oak_flooring]
+copies = "oak_planks"
+tool = "axe"
+
+[spruce_flooring]
+copies = "spruce_planks"
+tool = "axe"
+
+[birch_flooring]
+copies = "birch_planks"
+tool = "axe"
+
+[jungle_flooring]
+copies = "jungle_planks"
+tool = "axe"
+
+[acacia_flooring]
+copies = "acacia_planks"
+tool = "axe"
+
+[dark_oak_flooring]
+copies = "dark_oak_planks"
+tool = "axe"
+
+[mangrove_flooring]
+copies = "mangrove_planks"
+tool = "axe"
+
+[cherry_flooring]
+copies = "cherry_planks"
+tool = "axe"
+
+[crimson_flooring]
+copies = "crimson_planks"
+tool = "axe"
+
+[warped_flooring]
+copies = "warped_planks"
+tool = "axe"
+
+[oak_flooring_stairs]
+type = "stairs"
+copies = "oak_flooring"
+tool = "axe"
+
+[oak_flooring_slab]
+type = "slab"
+copies = "oak_flooring"
+tool = "axe"
+
+[spruce_flooring_stairs]
+type = "stairs"
+copies = "spruce_flooring"
+tool = "axe"
+
+[spruce_flooring_slab]
+type = "slab"
+copies = "spruce_flooring"
+tool = "axe"
+
+[birch_flooring_stairs]
+type = "stairs"
+copies = "birch_flooring"
+tool = "axe"
+
+[birch_flooring_slab]
+type = "slab"
+copies = "birch_flooring"
+tool = "axe"
+
+[jungle_flooring_stairs]
+type = "stairs"
+copies = "jungle_flooring"
+tool = "axe"
+
+[jungle_flooring_slab]
+type = "slab"
+copies = "jungle_flooring"
+tool = "axe"
+
+[acacia_flooring_stairs]
+type = "stairs"
+copies = "acacia_flooring"
+tool = "axe"
+
+[acacia_flooring_slab]
+type = "slab"
+copies = "acacia_flooring"
+tool = "axe"
+
+[dark_oak_flooring_stairs]
+type = "stairs"
+copies = "dark_oak_flooring"
+tool = "axe"
+
+[dark_oak_flooring_slab]
+type = "slab"
+copies = "dark_oak_flooring"
+tool = "axe"
+
+[mangrove_flooring_stairs]
+type = "stairs"
+copies = "mangrove_flooring"
+tool = "axe"
+
+[mangrove_flooring_slab]
+type = "slab"
+copies = "mangrove_flooring"
+tool = "axe"
+
+[cherry_flooring_stairs]
+type = "stairs"
+copies = "cherry_flooring"
+tool = "axe"
+
+[cherry_flooring_slab]
+type = "slab"
+copies = "cherry_flooring"
+tool = "axe"
+
+[crimson_flooring_stairs]
+type = "stairs"
+copies = "crimson_flooring"
+tool = "axe"
+
+[crimson_flooring_slab]
+type = "slab"
+copies = "crimson_flooring"
+tool = "axe"
+
+[warped_flooring_stairs]
+type = "stairs"
+copies = "warped_flooring"
+tool = "axe"
+
+[warped_flooring_slab]
+type = "slab"
+copies = "warped_flooring"
+tool = "axe"
+
+[infested_mossy_cobblestone]
+copies = "mossy_cobblestone"
+texture = "minecraft:mossy_cobblestone"
+tool = "pickaxe"
+
+[cobblestone_bricks]
+copies = "cobblestone"
+tool = "pickaxe"
+
+[infested_cobblestone_bricks]
+copies = "cobblestone_bricks"
+tool = "pickaxe"
+
+[cobblestone_brick_stairs]
+type = "stairs"
+copies = "cobblestone_bricks"
+tool = "pickaxe"
+
+[cobblestone_brick_slab]
+type = "slab"
+copies = "cobblestone_bricks"
+tool = "pickaxe"
+
+[cobblestone_brick_wall]
+type = "wall"
+copies = "cobblestone_bricks"
+tool = "pickaxe"
+
+[mossy_cobblestone_bricks]
+copies = "mossy_cobblestone"
+tool = "pickaxe"
+
+[infested_mossy_cobblestone_bricks]
+copies = "mossy_cobblestone_bricks"
+tool = "pickaxe"
+
+[mossy_cobblestone_brick_stairs]
+type = "stairs"
+copies = "mossy_cobblestone_bricks"
+tool = "pickaxe"
+
+[mossy_cobblestone_brick_slab]
+type = "slab"
+copies = "mossy_cobblestone_bricks"
+tool = "pickaxe"
+
+[mossy_cobblestone_brick_wall]
+type = "wall"
+copies = "mossy_cobblestone_bricks"
+tool = "pickaxe"
+
+[polished_cobblestone]
+copies = "cobblestone"
+tool = "pickaxe"
+
+[polished_cobblestone_stairs]
+type = "stairs"
+copies = "polished_cobblestone"
+tool = "pickaxe"
+
+[polished_cobblestone_slab]
+type = "slab"
+copies = "polished_cobblestone"
+tool = "pickaxe"
+
+[polished_cobblestone_wall]
+type = "wall"
+copies = "polished_cobblestone"
+tool = "pickaxe"
+
+[cobblestone_tiles]
+copies = "cobblestone"
+tool = "pickaxe"
+
+[cobblestone_tile_stairs]
+type = "stairs"
+copies = "cobblestone_tiles"
+tool = "pickaxe"
+
+[cobblestone_tile_slab]
+type = "slab"
+copies = "cobblestone_tiles"
+tool = "pickaxe"
+
+[cobblestone_tile_wall]
+type = "wall"
+copies = "cobblestone_tiles"
+tool = "pickaxe"
+
+[polished_mossy_cobblestone]
+copies = "mossy_cobblestone"
+tool = "pickaxe"
+
+[polished_mossy_cobblestone_stairs]
+type = "stairs"
+copies = "polished_mossy_cobblestone"
+tool = "pickaxe"
+
+[polished_mossy_cobblestone_slab]
+type = "slab"
+copies = "polished_mossy_cobblestone"
+tool = "pickaxe"
+
+[polished_mossy_cobblestone_wall]
+type = "wall"
+copies = "polished_mossy_cobblestone"
+tool = "pickaxe"
+
+[mossy_cobblestone_tiles]
+copies = "mossy_cobblestone"
+tool = "pickaxe"
+
+[mossy_cobblestone_tile_stairs]
+type = "stairs"
+copies = "mossy_cobblestone_tiles"
+tool = "pickaxe"
+
+[mossy_cobblestone_tile_slab]
+type = "slab"
+copies = "mossy_cobblestone_tiles"
+tool = "pickaxe"
+
+[mossy_cobblestone_tile_wall]
+type = "wall"
+copies = "mossy_cobblestone_tiles"
+tool = "pickaxe"
+
+[infested_cobblestone_tiles]
+copies = "cobblestone_tiles"
+tool = "pickaxe"
+
+[infested_mossy_cobblestone_tiles]
+copies = "mossy_cobblestone_tiles"
+tool = "pickaxe"
+
+[infested_polished_cobblestone]
+copies = "polished_cobblestone"
+tool = "pickaxe"
+
+[infested_polished_mossy_cobblestone]
+copies = "polished_mossy_cobblestone"
+tool = "pickaxe"
+
+[mossy_cracked_stone_bricks]
+copies = "cracked_stone_bricks"
+tool = "pickaxe"
+
+[infested_mossy_cracked_stone_bricks]
+copies = "mossy_cracked_stone_bricks"
+tool = "pickaxe"
+
+[mossy_chiseled_stone_bricks]
+copies = "chiseled_stone_bricks"
+tool = "pickaxe"
+
+[infested_mossy_chiseled_stone_bricks]
+copies = "mossy_chiseled_stone_bricks"
+tool = "pickaxe"
+
+[stone_tiles]
+copies = "stone"
+tool = "pickaxe"
+
+[infested_stone_tiles]
+copies = "stone_tiles"
+tool = "pickaxe"
+
+[stone_tile_stairs]
+type = "stairs"
+copies = "stone_tiles"
+tool = "pickaxe"
+
+[stone_tile_slab]
+type = "slab"
+copies = "stone_tiles"
+tool = "pickaxe"
+
+[stone_tile_wall]
+type = "wall"
+copies = "stone_tiles"
+tool = "pickaxe"
+
+[mossy_stone_tiles]
+copies = "mossy_stone_bricks"
+tool = "pickaxe"
+
+[infested_mossy_stone_tiles]
+copies = "mossy_stone_tiles"
+tool = "pickaxe"
+
+[mossy_stone_tile_stairs]
+type = "stairs"
+copies = "mossy_stone_tiles"
+tool = "pickaxe"
+
+[mossy_stone_tile_slab]
+type = "slab"
+copies = "mossy_stone_tiles"
+tool = "pickaxe"
+
+[mossy_stone_tile_wall]
+type = "wall"
+copies = "mossy_stone_tiles"
+tool = "pickaxe"
+
+[polished_andesite_wall]
+type = "wall"
+copies = "polished_andesite"
+tool = "pickaxe"
+
+[chiseled_andesite]
+copies = "polished_andesite"
+tool = "pickaxe"
+
+[andesite_bricks]
+copies = "polished_andesite"
+tool = "pickaxe"
+
+[andesite_brick_stairs]
+type = "stairs"
+copies = "andesite_bricks"
+tool = "pickaxe"
+
+[andesite_brick_slab]
+type = "slab"
+copies = "andesite_bricks"
+tool = "pickaxe"
+
+[andesite_brick_wall]
+type = "wall"
+copies = "andesite_bricks"
+tool = "pickaxe"
+
+[andesite_tiles]
+copies = "polished_andesite"
+tool = "pickaxe"
+
+[andesite_tile_stairs]
+type = "stairs"
+copies = "andesite_tiles"
+tool = "pickaxe"
+
+[andesite_tile_slab]
+type = "slab"
+copies = "andesite_tiles"
+tool = "pickaxe"
+
+[andesite_tile_wall]
+type = "wall"
+copies = "andesite_tiles"
+tool = "pickaxe"
+
+[polished_diorite_wall]
+type = "wall"
+copies = "polished_diorite"
+tool = "pickaxe"
+
+[chiseled_diorite]
+copies = "polished_diorite"
+tool = "pickaxe"
+
+[diorite_bricks]
+copies = "polished_diorite"
+tool = "pickaxe"
+
+[diorite_brick_stairs]
+type = "stairs"
+copies = "diorite_bricks"
+tool = "pickaxe"
+
+[diorite_brick_slab]
+type = "slab"
+copies = "diorite_bricks"
+tool = "pickaxe"
+
+[diorite_brick_wall]
+type = "wall"
+copies = "diorite_bricks"
+tool = "pickaxe"
+
+[diorite_tiles]
+copies = "polished_diorite"
+tool = "pickaxe"
+
+[diorite_tile_stairs]
+type = "stairs"
+copies = "diorite_tiles"
+tool = "pickaxe"
+
+[diorite_tile_slab]
+type = "slab"
+copies = "diorite_tiles"
+tool = "pickaxe"
+
+[diorite_tile_wall]
+type = "wall"
+copies = "diorite_tiles"
+tool = "pickaxe"
+
+[polished_granite_wall]
+type = "wall"
+copies = "polished_granite"
+tool = "pickaxe"
+
+[chiseled_granite]
+copies = "polished_granite"
+tool = "pickaxe"
+
+[granite_bricks]
+copies = "polished_granite"
+tool = "pickaxe"
+
+[granite_brick_stairs]
+type = "stairs"
+copies = "granite_bricks"
+tool = "pickaxe"
+
+[granite_brick_slab]
+type = "slab"
+copies = "granite_bricks"
+tool = "pickaxe"
+
+[granite_brick_wall]
+type = "wall"
+copies = "granite_bricks"
+tool = "pickaxe"
+
+[granite_tiles]
+copies = "polished_granite"
+tool = "pickaxe"
+
+[granite_tile_stairs]
+type = "stairs"
+copies = "granite_tiles"
+tool = "pickaxe"
+
+[granite_tile_slab]
+type = "slab"
+copies = "granite_tiles"
+tool = "pickaxe"
+
+[granite_tile_wall]
+type = "wall"
+copies = "granite_tiles"
+tool = "pickaxe"
+
+[dripstone_stairs]
+type = "stairs"
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[dripstone_slab]
+type = "slab"
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[dripstone_wall]
+type = "wall"
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[polished_dripstone]
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[polished_dripstone_stairs]
+type = "stairs"
+copies = "polished_dripstone"
+tool = "pickaxe"
+
+[polished_dripstone_slab]
+type = "slab"
+copies = "polished_dripstone"
+tool = "pickaxe"
+
+[polished_dripstone_wall]
+type = "wall"
+copies = "polished_dripstone"
+tool = "pickaxe"
+
+[chiseled_dripstone]
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[dripstone_bricks]
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[dripstone_brick_stairs]
+type = "stairs"
+copies = "dripstone_bricks"
+tool = "pickaxe"
+
+[dripstone_brick_slab]
+type = "slab"
+copies = "dripstone_bricks"
+tool = "pickaxe"
+
+[dripstone_brick_wall]
+type = "wall"
+copies = "dripstone_bricks"
+tool = "pickaxe"
+
+[dripstone_tiles]
+copies = "dripstone_block"
+tool = "pickaxe"
+
+[dripstone_tile_stairs]
+type = "stairs"
+copies = "dripstone_tiles"
+tool = "pickaxe"
+
+[dripstone_tile_slab]
+type = "slab"
+copies = "dripstone_tiles"
+tool = "pickaxe"
+
+[dripstone_tile_wall]
+type = "wall"
+copies = "dripstone_tiles"
+tool = "pickaxe"
+
+[prismarine_brick_wall]
+type = "wall"
+copies = "prismarine_bricks"
+tool = "pickaxe"
+
+[dark_prismarine_wall]
+type = "wall"
+copies = "dark_prismarine"
+tool = "pickaxe"
+
+[smooth_sandstone_wall]
+type = "wall"
+copies = "smooth_sandstone"
+texture = "minecraft:sandstone_top"
+tool = "pickaxe"
+
+[cut_sandstone_stairs]
+type = "stairs"
+copies = "cut_sandstone"
+tool = "pickaxe"
+
+
+[cut_sandstone_wall]
+type = "wall"
+copies = "cut_sandstone"
+tool = "pickaxe"
+
+[sandstone_bricks]
+copies = "sandstone"
+tool = "pickaxe"
+
+[sandstone_brick_stairs]
+type = "stairs"
+copies = "sandstone_bricks"
+tool = "pickaxe"
+
+[sandstone_brick_slab]
+type = "slab"
+copies = "sandstone_bricks"
+tool = "pickaxe"
+
+[sandstone_brick_wall]
+type = "wall"
+copies = "sandstone_bricks"
+tool = "pickaxe"
+
+[sandstone_tiles]
+copies = "sandstone"
+tool = "pickaxe"
+
+[sandstone_tile_stairs]
+type = "stairs"
+copies = "sandstone_tiles"
+tool = "pickaxe"
+
+[sandstone_tile_slab]
+type = "slab"
+copies = "sandstone_tiles"
+tool = "pickaxe"
+
+[sandstone_tile_wall]
+type = "wall"
+copies = "sandstone_tiles"
+tool = "pickaxe"
+
+[smooth_red_sandstone_wall]
+type = "wall"
+copies = "smooth_red_sandstone"
+texture = "minecraft:red_sandstone_top"
+tool = "pickaxe"
+
+[cut_red_sandstone_stairs]
+type = "stairs"
+copies = "cut_red_sandstone"
+tool = "pickaxe"
+
+[cut_red_sandstone_wall]
+type = "wall"
+copies = "cut_red_sandstone"
+tool = "pickaxe"
+
+[red_sandstone_bricks]
+copies = "red_sandstone"
+tool = "pickaxe"
+
+[red_sandstone_brick_stairs]
+type = "stairs"
+copies = "red_sandstone_bricks"
+tool = "pickaxe"
+
+[red_sandstone_brick_slab]
+type = "slab"
+copies = "red_sandstone_bricks"
+tool = "pickaxe"
+
+[red_sandstone_brick_wall]
+type = "wall"
+copies = "red_sandstone_bricks"
+tool = "pickaxe"
+
+[red_sandstone_tiles]
+copies = "red_sandstone"
+tool = "pickaxe"
+
+[red_sandstone_tile_stairs]
+type = "stairs"
+copies = "red_sandstone_tiles"
+tool = "pickaxe"
+
+[red_sandstone_tile_slab]
+type = "slab"
+copies = "red_sandstone_tiles"
+tool = "pickaxe"
+
+[red_sandstone_tile_wall]
+type = "wall"
+copies = "red_sandstone_tiles"
+tool = "pickaxe"
+
+[deepslate_stairs]
+type = "stairs"
+copies = "deepslate"
+tool = "pickaxe"
+
+[deepslate_slab]
+type = "slab"
+copies = "deepslate"
+tool = "pickaxe"
+
+[deepslate_wall]
+type = "wall"
+copies = "deepslate"
+tool = "pickaxe"
+
+[tuff_tiles]
+copies = "tuff"
+tool = "pickaxe"
+
+[tuff_tile_stairs]
+type = "stairs"
+copies = "tuff_tiles"
+tool = "pickaxe"
+
+[tuff_tile_slab]
+type = "slab"
+copies = "tuff_tiles"
+tool = "pickaxe"
+
+[tuff_tile_wall]
+type = "wall"
+copies = "tuff_tiles"
+tool = "pickaxe"
+
+[calcite_stairs]
+type = "stairs"
+copies = "calcite"
+tool = "pickaxe"
+
+[calcite_slab]
+type = "slab"
+copies = "calcite"
+tool = "pickaxe"
+
+[calcite_wall]
+type = "wall"
+copies = "calcite"
+tool = "pickaxe"
+
+[chiseled_calcite]
+copies = "calcite"
+tool = "pickaxe"
+
+[polished_calcite]
+copies = "calcite"
+tool = "pickaxe"
+
+[polished_calcite_stairs]
+type = "stairs"
+copies = "polished_calcite"
+tool = "pickaxe"
+
+[polished_calcite_slab]
+type = "slab"
+copies = "polished_calcite"
+tool = "pickaxe"
+
+[polished_calcite_wall]
+type = "wall"
+copies = "polished_calcite"
+tool = "pickaxe"
+
+[calcite_bricks]
+copies = "calcite"
+tool = "pickaxe"
+
+[calcite_brick_stairs]
+type = "stairs"
+copies = "calcite_bricks"
+tool = "pickaxe"
+
+[calcite_brick_slab]
+type = "slab"
+copies = "calcite_bricks"
+tool = "pickaxe"
+
+[calcite_brick_wall]
+type = "wall"
+copies = "calcite_bricks"
+tool = "pickaxe"
+
+[calcite_tiles]
+copies = "calcite"
+tool = "pickaxe"
+
+[calcite_tile_stairs]
+type = "stairs"
+copies = "calcite_tiles"
+tool = "pickaxe"
+
+[calcite_tile_slab]
+type = "slab"
+copies = "calcite_tiles"
+tool = "pickaxe"
+
+[calcite_tile_wall]
+type = "wall"
+copies = "calcite_tiles"
+tool = "pickaxe"
+
+[large_chain]
+type = "custum"
+copies = "iron_chain"
+tool = "pickaxe"
+
+[packed_mud_stairs]
+type = "stairs"
+copies = "packed_mud"
+tool = "pickaxe"
+
+[packed_mud_slab]
+type = "slab"
+copies = "packed_mud"
+tool = "pickaxe"
+
+[packed_mud_wall]
+type = "wall"
+copies = "packed_mud"
+tool = "pickaxe"
+
+[mud_tiles]
+copies = "packed_mud"
+tool = "pickaxe"
+
+[mud_tile_stairs]
+type = "stairs"
+copies = "mud_tiles"
+tool = "pickaxe"
+
+[mud_tile_slab]
+type = "slab"
+copies = "mud_tiles"
+tool = "pickaxe"
+
+[mud_tile_wall]
+type = "wall"
+copies = "mud_tiles"
+tool = "pickaxe"
+
+[chiseled_mud_bricks]
+copies = "mud_bricks"
+tool = "pickaxe"
+
+[smooth_mud]
+copies = "mud_bricks"
+tool = "pickaxe"
+
+[smooth_mud_stairs]
+type = "stairs"
+copies = "smooth_mud"
+tool = "pickaxe"
+
+[smooth_mud_slab]
+type = "slab"
+copies = "smooth_mud"
+tool = "pickaxe"
+
+[smooth_mud_wall]
+type = "wall"
+copies = "smooth_mud"
+tool = "pickaxe"
+
+[smooth_mud_pressure_plate]
+type = "pressure_plate"
+copies = "packed_mud"
+texture = "smooth_mud"
+tool = "pickaxe"
+
+[smooth_mud_button]
+type = "button"
+copies = "packed_mud"
+tool = "pickaxe"
+
+[chiseled_obsidian]
+copies = "obsidian"
+tool = "pickaxe"
+
+[polished_obsidian]
+copies = "obsidian"
+tool = "pickaxe"
+
+[polished_obsidian_stairs]
+type = "stairs"
+copies = "polished_obsidian"
+tool = "pickaxe"
+
+[polished_obsidian_slab]
+type = "slab"
+copies = "polished_obsidian"
+tool = "pickaxe"
+
+[polished_obsidian_wall]
+type = "wall"
+copies = "polished_obsidian"
+tool = "pickaxe"
+
+[obsidian_bricks]
+copies = "obsidian"
+tool = "pickaxe"
+
+[obsidian_brick_stairs]
+type = "stairs"
+copies = "obsidian_bricks"
+tool = "pickaxe"
+
+[obsidian_brick_slab]
+type = "slab"
+copies = "obsidian_bricks"
+tool = "pickaxe"
+
+[obsidian_brick_wall]
+type = "wall"
+copies = "obsidian_bricks"
+tool = "pickaxe"
+
+[obsidian_tiles]
+copies = "obsidian"
+tool = "pickaxe"
+
+[obsidian_tile_stairs]
+type = "stairs"
+copies = "obsidian_tiles"
+tool = "pickaxe"
+
+[obsidian_tile_slab]
+type = "slab"
+copies = "obsidian_tiles"
+tool = "pickaxe"
+
+[obsidian_tile_wall]
+type = "wall"
+copies = "obsidian_tiles"
+tool = "pickaxe"
+
+[cracked_red_nether_bricks]
+copies = "red_nether_bricks"
+tool = "pickaxe"
+
+[chiseled_red_nether_bricks]
+copies = "red_nether_bricks"
+tool = "pickaxe"
+
+[red_nether_brick_fence]
+type = "fence"
+copies = "red_nether_bricks"
+tool = "pickaxe"
+
+[end_stone_stairs]
+type = "stairs"
+copies = "end_stone"
+tool = "pickaxe"
+
+[end_stone_slab]
+type = "slab"
+copies = "end_stone"
+tool = "pickaxe"
+
+[end_stone_wall]
+type = "wall"
+copies = "end_stone"
+tool = "pickaxe"
+
+[chiseled_end_stone]
+copies = "end_stone"
+tool = "pickaxe"
+
+[polished_end_stone]
+copies = "end_stone"
+tool = "pickaxe"
+
+[polished_end_stone_stairs]
+type = "stairs"
+copies = "polished_end_stone"
+tool = "pickaxe"
+
+[polished_end_stone_slab]
+type = "slab"
+copies = "polished_end_stone"
+tool = "pickaxe"
+
+[polished_end_stone_wall]
+type = "wall"
+copies = "polished_end_stone"
+tool = "pickaxe"
+
+[end_stone_tiles]
+copies = "end_stone"
+tool = "pickaxe"
+
+[end_stone_tile_stairs]
+type = "stairs"
+copies = "end_stone_tiles"
+tool = "pickaxe"
+
+[end_stone_tile_slab]
+type = "slab"
+copies = "end_stone_tiles"
+tool = "pickaxe"
+
+[end_stone_tile_wall]
+type = "wall"
+copies = "end_stone_tiles"
+tool = "pickaxe"
+
+[chiseled_purpur]
+copies = "purpur_block"
+tool = "pickaxe"
+
+[polished_purpur]
+copies = "purpur_block"
+tool = "pickaxe"
+
+[polished_purpur_stairs]
+type = "stairs"
+copies = "polished_purpur"
+tool = "pickaxe"
+
+[polished_purpur_slab]
+type = "slab"
+copies = "polished_purpur"
+tool = "pickaxe"
+
+[polished_purpur_wall]
+type = "wall"
+copies = "polished_purpur"
+tool = "pickaxe"
+
+[purpur_bricks]
+copies = "purpur_block"
+tool = "pickaxe"
+
+[purpur_brick_stairs]
+type = "stairs"
+copies = "purpur_bricks"
+tool = "pickaxe"
+
+[purpur_brick_slab]
+type = "slab"
+copies = "purpur_bricks"
+tool = "pickaxe"
+
+[purpur_brick_wall]
+type = "wall"
+copies = "purpur_bricks"
+tool = "pickaxe"
+
+[purpur_tile_wall]
+type = "wall"
+copies = "purpur_block"
+tool = "pickaxe"
+
+[blackstone_tiles]
+copies = "blackstone"
+tool = "pickaxe"
+
+[blackstone_tile_stairs]
+type = "stairs"
+copies = "blackstone_tiles"
+tool = "pickaxe"
+
+[blackstone_tile_slab]
+type = "slab"
+copies = "blackstone_tiles"
+tool = "pickaxe"
+
+[blackstone_tile_wall]
+type = "wall"
+copies = "blackstone_tiles"
+tool = "pickaxe"
+
+[smooth_basalt_stairs]
+type = "stairs"
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[smooth_basalt_slab]
+type = "slab"
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[smooth_basalt_wall]
+type = "wall"
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[polished_smooth_basalt]
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[polished_smooth_basalt_stairs]
+type = "stairs"
+copies = "polished_smooth_basalt"
+tool = "pickaxe"
+
+[polished_smooth_basalt_slab]
+type = "slab"
+copies = "polished_smooth_basalt"
+tool = "pickaxe"
+
+[polished_smooth_basalt_wall]
+type = "wall"
+copies = "polished_smooth_basalt"
+tool = "pickaxe"
+
+[smooth_basalt_bricks]
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[smooth_basalt_brick_stairs]
+type = "stairs"
+copies = "smooth_basalt_bricks"
+tool = "pickaxe"
+
+[smooth_basalt_brick_slab]
+type = "slab"
+copies = "smooth_basalt_bricks"
+tool = "pickaxe"
+
+[smooth_basalt_brick_wall]
+type = "wall"
+copies = "smooth_basalt_bricks"
+tool = "pickaxe"
+
+[cracked_smooth_basalt_bricks]
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[chiseled_smooth_basalt]
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[smooth_basalt_tiles]
+copies = "smooth_basalt"
+tool = "pickaxe"
+
+[smooth_basalt_tile_stairs]
+type = "stairs"
+copies = "smooth_basalt_tiles"
+tool = "pickaxe"
+
+[smooth_basalt_tile_slab]
+type = "slab"
+copies = "smooth_basalt_tiles"
+tool = "pickaxe"
+
+[smooth_basalt_tile_wall]
+type = "wall"
+copies = "smooth_basalt_tiles"
+tool = "pickaxe"
+
+[carved_snow]
+type = "custum"
+copies = "snow_block"
+tool = "shovel"
+
+[packed_snow]
+copies = "snow_block"
+tool = "shovel"
+
+[packed_snow_stairs]
+type = "stairs"
+copies = "packed_snow"
+tool = "shovel"
+
+[packed_snow_slab]
+type = "slab"
+copies = "packed_snow"
+tool = "shovel"
+
+[packed_snow_wall]
+type = "wall"
+copies = "packed_snow"
+tool = "shovel"
+
+[snow_bricks]
+copies = "snow_block"
+tool = "shovel"
+
+[snow_brick_stairs]
+type = "stairs"
+copies = "snow_bricks"
+tool = "shovel"
+
+[snow_brick_slab]
+type = "slab"
+copies = "snow_bricks"
+tool = "shovel"
+
+[snow_brick_wall]
+type = "wall"
+copies = "snow_bricks"
+tool = "shovel"
+
+[polished_ice]
+copies = "ice"
+tool = "pickaxe"
+
+[polished_ice_stairs]
+type = "stairs"
+copies = "polished_ice"
+tool = "pickaxe"
+
+[polished_ice_slab]
+type = "slab"
+copies = "polished_ice"
+tool = "pickaxe"
+
+[polished_ice_wall]
+type = "wall"
+copies = "polished_ice"
+tool = "pickaxe"
+
+[ice_bricks]
+copies = "ice"
+tool = "pickaxe"
+
+[ice_brick_stairs]
+type = "stairs"
+copies = "ice_bricks"
+tool = "pickaxe"
+
+[ice_brick_slab]
+type = "slab"
+copies = "ice_bricks"
+tool = "pickaxe"
+
+[ice_brick_wall]
+type = "wall"
+copies = "ice_bricks"
+tool = "pickaxe"
+
+[ice_tiles]
+copies = "ice"
+tool = "pickaxe"
+
+[ice_tile_stairs]
+type = "stairs"
+copies = "ice_tiles"
+tool = "pickaxe"
+
+[ice_tile_slab]
+type = "slab"
+copies = "ice_tiles"
+tool = "pickaxe"
+
+[ice_tile_wall]
+type = "wall"
+copies = "ice_tiles"
+tool = "pickaxe"
+
+[chiseled_ice]
+copies = "ice"
+tool = "pickaxe"
+
+[polished_packed_ice]
+copies = "packed_ice"
+tool = "pickaxe"
+
+[polished_packed_ice_stairs]
+type = "stairs"
+copies = "packed_ice"
+tool = "pickaxe"
+
+[polished_packed_ice_slab]
+type = "slab"
+copies = "packed_ice"
+tool = "pickaxe"
+
+[polished_packed_ice_wall]
+type = "wall"
+copies = "packed_ice"
+tool = "pickaxe"
+
+[packed_ice_bricks]
+copies = "packed_ice"
+tool = "pickaxe"
+
+[packed_ice_brick_stairs]
+type = "stairs"
+copies = "packed_ice_bricks"
+tool = "pickaxe"
+
+[packed_ice_brick_slab]
+type = "slab"
+copies = "packed_ice_bricks"
+tool = "pickaxe"
+
+[packed_ice_brick_wall]
+type = "wall"
+copies = "packed_ice_bricks"
+tool = "pickaxe"
+
+[packed_ice_tiles]
+copies = "packed_ice"
+tool = "pickaxe"
+
+[packed_ice_tile_stairs]
+type = "stairs"
+copies = "packed_ice_tiles"
+tool = "pickaxe"
+
+[packed_ice_tile_slab]
+type = "slab"
+copies = "packed_ice_tiles"
+tool = "pickaxe"
+
+[packed_ice_tile_wall]
+type = "wall"
+copies = "packed_ice_tiles"
+tool = "pickaxe"
+
+[chiseled_packed_ice]
+copies = "packed_ice"
+tool = "pickaxe"
+
+[polished_blue_ice]
+copies = "blue_ice"
+tool = "pickaxe"
+
+[polished_blue_ice_stairs]
+type = "stairs"
+copies = "blue_ice"
+tool = "pickaxe"
+
+[polished_blue_ice_slab]
+type = "slab"
+copies = "blue_ice"
+tool = "pickaxe"
+
+[polished_blue_ice_wall]
+type = "wall"
+copies = "blue_ice"
+tool = "pickaxe"
+
+[blue_ice_bricks]
+copies = "blue_ice"
+tool = "pickaxe"
+
+[blue_ice_brick_stairs]
+type = "stairs"
+copies = "blue_ice_bricks"
+tool = "pickaxe"
+
+[blue_ice_brick_slab]
+type = "slab"
+copies = "blue_ice_bricks"
+tool = "pickaxe"
+
+[blue_ice_brick_wall]
+type = "wall"
+copies = "blue_ice_bricks"
+tool = "pickaxe"
+
+[blue_ice_tiles]
+copies = "blue_ice"
+tool = "pickaxe"
+
+[blue_ice_tile_stairs]
+type = "stairs"
+copies = "blue_ice_tiles"
+tool = "pickaxe"
+
+[blue_ice_tile_slab]
+type = "slab"
+copies = "blue_ice_tiles"
+tool = "pickaxe"
+
+[blue_ice_tile_wall]
+type = "wall"
+copies = "blue_ice_tiles"
+tool = "pickaxe"
+
+[chiseled_blue_ice]
+copies = "blue_ice"
+tool = "pickaxe"
+
+[white_threaded_wool]
+copies = "white_wool"
+tool = "sheers"
+
+[white_threaded_carpet]
+type = "carpet"
+copies = "white_carpet"
+texture = "white_threaded_wool"
+tool = "sheers"
+
+[light_gray_threaded_wool]
+copies = "light_gray_wool"
+tool = "sheers"
+
+[light_gray_threaded_carpet]
+type = "carpet"
+copies = "light_gray_carpet"
+texture = "light_gray_threaded_wool"
+tool = "sheers"
+
+[gray_threaded_wool]
+copies = "gray_wool"
+tool = "sheers"
+
+[gray_threaded_carpet]
+type = "carpet"
+copies = "gray_carpet"
+texture = "gray_threaded_wool"
+tool = "sheers"
+
+[black_threaded_wool]
+copies = "black_wool"
+tool = "sheers"
+
+[black_threaded_carpet]
+type = "carpet"
+copies = "black_carpet"
+texture = "black_threaded_wool"
+tool = "sheers"
+
+[brown_threaded_wool]
+copies = "brown_wool"
+tool = "sheers"
+
+[brown_threaded_carpet]
+type = "carpet"
+copies = "brown_carpet"
+texture = "brown_threaded_wool"
+tool = "sheers"
+
+[red_threaded_wool]
+copies = "red_wool"
+tool = "sheers"
+
+[red_threaded_carpet]
+type = "carpet"
+texture = "red_threaded_wool"
+copies = "red_carpet"
+tool = "sheers"
+
+[orange_threaded_wool]
+copies = "orange_wool"
+tool = "sheers"
+
+[orange_threaded_carpet]
+type = "carpet"
+copies = "orange_carpet"
+texture = "orange_threaded_wool"
+tool = "sheers"
+
+[yellow_threaded_wool]
+copies = "yellow_wool"
+tool = "sheers"
+
+[yellow_threaded_carpet]
+type = "carpet"
+copies = "yellow_carpet"
+texture = "yellow_threaded_wool"
+tool = "sheers"
+
+[lime_threaded_wool]
+copies = "lime_wool"
+tool = "sheers"
+
+[lime_threaded_carpet]
+type = "carpet"
+copies = "lime_carpet"
+texture = "lime_threaded_wool"
+tool = "sheers"
+
+[green_threaded_wool]
+copies = "green_wool"
+tool = "sheers"
+
+[green_threaded_carpet]
+type = "carpet"
+copies = "green_carpet"
+texture = "green_threaded_wool"
+tool = "sheers"
+
+[cyan_threaded_wool]
+copies = "cyan_wool"
+tool = "sheers"
+
+[cyan_threaded_carpet]
+type = "carpet"
+copies = "cyan_carpet"
+texture = "cyan_threaded_wool"
+tool = "sheers"
+
+[light_blue_threaded_wool]
+copies = "light_blue_wool"
+tool = "sheers"
+
+[light_blue_threaded_carpet]
+type = "carpet"
+copies = "light_blue_carpet"
+texture = "light_blue_threaded_wool"
+tool = "sheers"
+
+[blue_threaded_wool]
+copies = "blue_wool"
+tool = "sheers"
+
+[blue_threaded_carpet]
+type = "carpet"
+copies = "blue_carpet"
+texture = "blue_threaded_wool"
+tool = "sheers"
+
+[purple_threaded_wool]
+copies = "purple_wool"
+tool = "sheers"
+
+[purple_threaded_carpet]
+type = "carpet"
+copies = "purple_carpet"
+texture = "purple_threaded_wool"
+tool = "sheers"
+
+[magenta_threaded_wool]
+copies = "magenta_wool"
+tool = "sheers"
+
+[magenta_threaded_carpet]
+type = "carpet"
+copies = "magenta_carpet"
+texture = "magenta_threaded_wool"
+tool = "sheers"
+
+[pink_threaded_wool]
+copies = "pink_wool"
+tool = "sheers"
+
+[pink_threaded_carpet]
+type = "carpet"
+copies = "pink_carpet"
+texture = "pink_threaded_wool"
+tool = "sheers"
+
+[terracotta_stairs]
+type = "stairs"
+copies = "terracotta"
+tool = "pickaxe"
+
+[terracotta_slab]
+type = "slab"
+copies = "terracotta"
+tool = "pickaxe"
+
+[terracotta_wall]
+type = "wall"
+copies = "terracotta"
+tool = "pickaxe"
+
+[light_gray_terracotta_stairs]
+type = "stairs"
+copies = "light_gray_terracotta"
+tool = "pickaxe"
+
+[light_gray_terracotta_slab]
+type = "slab"
+copies = "light_gray_terracotta"
+tool = "pickaxe"
+
+[light_gray_terracotta_wall]
+type = "wall"
+copies = "light_gray_terracotta"
+tool = "pickaxe"
+
+[gray_terracotta_stairs]
+type = "stairs"
+copies = "gray_terracotta"
+tool = "pickaxe"
+
+[gray_terracotta_slab]
+type = "slab"
+copies = "gray_terracotta"
+tool = "pickaxe"
+
+[gray_terracotta_wall]
+type = "wall"
+copies = "gray_terracotta"
+tool = "pickaxe"
+
+[black_terracotta_stairs]
+type = "stairs"
+copies = "black_terracotta"
+tool = "pickaxe"
+
+[black_terracotta_slab]
+type = "slab"
+copies = "black_terracotta"
+tool = "pickaxe"
+
+[black_terracotta_wall]
+type = "wall"
+copies = "black_terracotta"
+tool = "pickaxe"
+
+[white_terracotta_stairs]
+type = "stairs"
+copies = "white_terracotta"
+tool = "pickaxe"
+
+[white_terracotta_slab]
+type = "slab"
+copies = "white_terracotta"
+tool = "pickaxe"
+
+[white_terracotta_wall]
+type = "wall"
+copies = "white_terracotta"
+tool = "pickaxe"
+
+[brown_terracotta_stairs]
+type = "stairs"
+copies = "brown_terracotta"
+tool = "pickaxe"
+
+[brown_terracotta_slab]
+type = "slab"
+copies = "brown_terracotta"
+tool = "pickaxe"
+
+[brown_terracotta_wall]
+type = "wall"
+copies = "brown_terracotta"
+tool = "pickaxe"
+
+[red_terracotta_stairs]
+type = "stairs"
+copies = "red_terracotta"
+tool = "pickaxe"
+
+[red_terracotta_slab]
+type = "slab"
+copies = "red_terracotta"
+tool = "pickaxe"
+
+[red_terracotta_wall]
+type = "wall"
+copies = "red_terracotta"
+tool = "pickaxe"
+
+[orange_terracotta_stairs]
+type = "stairs"
+copies = "orange_terracotta"
+tool = "pickaxe"
+
+[orange_terracotta_slab]
+type = "slab"
+copies = "orange_terracotta"
+tool = "pickaxe"
+
+[orange_terracotta_wall]
+type = "wall"
+copies = "orange_terracotta"
+tool = "pickaxe"
+
+[yellow_terracotta_stairs]
+type = "stairs"
+copies = "yellow_terracotta"
+tool = "pickaxe"
+
+[yellow_terracotta_slab]
+type = "slab"
+copies = "yellow_terracotta"
+tool = "pickaxe"
+
+[yellow_terracotta_wall]
+type = "wall"
+copies = "yellow_terracotta"
+tool = "pickaxe"
+
+[lime_terracotta_stairs]
+type = "stairs"
+copies = "lime_terracotta"
+tool = "pickaxe"
+
+[lime_terracotta_slab]
+type = "slab"
+copies = "lime_terracotta"
+tool = "pickaxe"
+
+[lime_terracotta_wall]
+type = "wall"
+copies = "lime_terracotta"
+tool = "pickaxe"
+
+[green_terracotta_stairs]
+type = "stairs"
+copies = "green_terracotta"
+tool = "pickaxe"
+
+[green_terracotta_slab]
+type = "slab"
+copies = "green_terracotta"
+tool = "pickaxe"
+
+[green_terracotta_wall]
+type = "wall"
+copies = "green_terracotta"
+tool = "pickaxe"
+
+[cyan_terracotta_stairs]
+type = "stairs"
+copies = "cyan_terracotta"
+tool = "pickaxe"
+
+[cyan_terracotta_slab]
+type = "slab"
+copies = "cyan_terracotta"
+tool = "pickaxe"
+
+[cyan_terracotta_wall]
+type = "wall"
+copies = "cyan_terracotta"
+tool = "pickaxe"
+
+[light_blue_terracotta_stairs]
+type = "stairs"
+copies = "light_blue_terracotta"
+tool = "pickaxe"
+
+[light_blue_terracotta_slab]
+type = "slab"
+copies = "light_blue_terracotta"
+tool = "pickaxe"
+
+[light_blue_terracotta_wall]
+type = "wall"
+copies = "light_blue_terracotta"
+tool = "pickaxe"
+
+[blue_terracotta_stairs]
+type = "stairs"
+copies = "blue_terracotta"
+tool = "pickaxe"
+
+[blue_terracotta_slab]
+type = "slab"
+copies = "blue_terracotta"
+tool = "pickaxe"
+
+[blue_terracotta_wall]
+type = "wall"
+copies = "blue_terracotta"
+tool = "pickaxe"
+
+[purple_terracotta_stairs]
+type = "stairs"
+copies = "purple_terracotta"
+tool = "pickaxe"
+
+[purple_terracotta_slab]
+type = "slab"
+copies = "purple_terracotta"
+tool = "pickaxe"
+
+[purple_terracotta_wall]
+type = "wall"
+copies = "purple_terracotta"
+tool = "pickaxe"
+
+[magenta_terracotta_stairs]
+type = "stairs"
+copies = "magenta_terracotta"
+tool = "pickaxe"
+
+[magenta_terracotta_slab]
+type = "slab"
+copies = "magenta_terracotta"
+tool = "pickaxe"
+
+[magenta_terracotta_wall]
+type = "wall"
+copies = "magenta_terracotta"
+tool = "pickaxe"
+
+[pink_terracotta_stairs]
+type = "stairs"
+copies = "pink_terracotta"
+tool = "pickaxe"
+
+[pink_terracotta_slab]
+type = "slab"
+copies = "pink_terracotta"
+tool = "pickaxe"
+
+[pink_terracotta_wall]
+type = "wall"
+copies = "pink_terracotta"
+tool = "pickaxe"
+
+[terracotta_bricks]
+copies = "terracotta"
+tool = "pickaxe"
+
+[terracotta_brick_stairs]
+type = "stairs"
+copies = "terracotta_bricks"
+tool = "pickaxe"
+
+[terracotta_brick_slab]
+type = "slab"
+copies = "terracotta_bricks"
+tool = "pickaxe"
+
+[terracotta_brick_wall]
+type = "wall"
+copies = "terracotta_bricks"
+tool = "pickaxe"
+
+[white_terracotta_bricks]
+copies = "white_terracotta"
+tool = "pickaxe"
+
+[white_terracotta_brick_stairs]
+type = "stairs"
+copies = "white_terracotta_bricks"
+tool = "pickaxe"
+
+[white_terracotta_brick_slab]
+type = "slab"
+copies = "white_terracotta_bricks"
+tool = "pickaxe"
+
+[white_terracotta_brick_wall]
+type = "wall"
+copies = "white_terracotta_bricks"
+tool = "pickaxe"
+
+[light_gray_terracotta_bricks]
+copies = "light_gray_terracotta"
+tool = "pickaxe"
+
+[light_gray_terracotta_brick_stairs]
+type = "stairs"
+copies = "light_gray_terracotta_bricks"
+tool = "pickaxe"
+
+[light_gray_terracotta_brick_slab]
+type = "slab"
+copies = "light_gray_terracotta_bricks"
+tool = "pickaxe"
+
+[light_gray_terracotta_brick_wall]
+type = "wall"
+copies = "light_gray_terracotta_bricks"
+tool = "pickaxe"
+
+[gray_terracotta_bricks]
+copies = "gray_terracotta"
+tool = "pickaxe"
+
+[gray_terracotta_brick_stairs]
+type = "stairs"
+copies = "gray_terracotta_bricks"
+tool = "pickaxe"
+
+[gray_terracotta_brick_slab]
+type = "slab"
+copies = "gray_terracotta_bricks"
+tool = "pickaxe"
+
+[gray_terracotta_brick_wall]
+type = "wall"
+copies = "gray_terracotta_bricks"
+tool = "pickaxe"
+
+[black_terracotta_bricks]
+copies = "black_terracotta"
+tool = "pickaxe"
+
+[black_terracotta_brick_stairs]
+type = "stairs"
+copies = "black_terracotta_bricks"
+tool = "pickaxe"
+
+[black_terracotta_brick_slab]
+type = "slab"
+copies = "black_terracotta_bricks"
+tool = "pickaxe"
+
+[black_terracotta_brick_wall]
+type = "wall"
+copies = "black_terracotta_bricks"
+tool = "pickaxe"
+
+[brown_terracotta_bricks]
+copies = "brown_terracotta"
+tool = "pickaxe"
+
+[brown_terracotta_brick_stairs]
+type = "stairs"
+copies = "brown_terracotta_bricks"
+tool = "pickaxe"
+
+[brown_terracotta_brick_slab]
+type = "slab"
+copies = "brown_terracotta_bricks"
+tool = "pickaxe"
+
+[brown_terracotta_brick_wall]
+type = "wall"
+copies = "brown_terracotta_bricks"
+tool = "pickaxe"
+
+[red_terracotta_bricks]
+copies = "red_terracotta"
+tool = "pickaxe"
+
+[red_terracotta_brick_stairs]
+type = "stairs"
+copies = "red_terracotta_bricks"
+tool = "pickaxe"
+
+[red_terracotta_brick_slab]
+type = "slab"
+copies = "red_terracotta_bricks"
+tool = "pickaxe"
+
+[red_terracotta_brick_wall]
+type = "wall"
+copies = "red_terracotta_bricks"
+tool = "pickaxe"
+
+[orange_terracotta_bricks]
+copies = "orange_terracotta"
+tool = "pickaxe"
+
+[orange_terracotta_brick_stairs]
+type = "stairs"
+copies = "orange_terracotta_bricks"
+tool = "pickaxe"
+
+[orange_terracotta_brick_slab]
+type = "slab"
+copies = "orange_terracotta_bricks"
+tool = "pickaxe"
+
+[orange_terracotta_brick_wall]
+type = "wall"
+copies = "orange_terracotta_bricks"
+tool = "pickaxe"
+
+[yellow_terracotta_bricks]
+copies = "yellow_terracotta"
+tool = "pickaxe"
+
+[yellow_terracotta_brick_stairs]
+type = "stairs"
+copies = "yellow_terracotta_bricks"
+tool = "pickaxe"
+
+[yellow_terracotta_brick_slab]
+type = "slab"
+copies = "yellow_terracotta_bricks"
+tool = "pickaxe"
+
+[yellow_terracotta_brick_wall]
+type = "wall"
+copies = "yellow_terracotta_bricks"
+tool = "pickaxe"
+
+[lime_terracotta_bricks]
+copies = "lime_terracotta"
+tool = "pickaxe"
+
+[lime_terracotta_brick_stairs]
+type = "stairs"
+copies = "lime_terracotta_bricks"
+tool = "pickaxe"
+
+[lime_terracotta_brick_slab]
+type = "slab"
+copies = "lime_terracotta_bricks"
+tool = "pickaxe"
+
+[lime_terracotta_brick_wall]
+type = "wall"
+copies = "lime_terracotta_bricks"
+tool = "pickaxe"
+
+[green_terracotta_bricks]
+copies = "green_terracotta"
+tool = "pickaxe"
+
+[green_terracotta_brick_stairs]
+type = "stairs"
+copies = "green_terracotta_bricks"
+tool = "pickaxe"
+
+[green_terracotta_brick_slab]
+type = "slab"
+copies = "green_terracotta_bricks"
+tool = "pickaxe"
+
+[green_terracotta_brick_wall]
+type = "wall"
+copies = "green_terracotta_bricks"
+tool = "pickaxe"
+
+[cyan_terracotta_bricks]
+copies = "cyan_terracotta"
+tool = "pickaxe"
+
+[cyan_terracotta_brick_stairs]
+type = "stairs"
+copies = "cyan_terracotta_bricks"
+tool = "pickaxe"
+
+[cyan_terracotta_brick_slab]
+type = "slab"
+copies = "cyan_terracotta_bricks"
+tool = "pickaxe"
+
+[cyan_terracotta_brick_wall]
+type = "wall"
+copies = "cyan_terracotta_bricks"
+tool = "pickaxe"
+
+[light_blue_terracotta_bricks]
+copies = "light_blue_terracotta"
+tool = "pickaxe"
+
+[light_blue_terracotta_brick_stairs]
+type = "stairs"
+copies = "light_blue_terracotta_bricks"
+tool = "pickaxe"
+
+[light_blue_terracotta_brick_slab]
+type = "slab"
+copies = "light_blue_terracotta_bricks"
+tool = "pickaxe"
+
+[light_blue_terracotta_brick_wall]
+type = "wall"
+copies = "light_blue_terracotta_bricks"
+tool = "pickaxe"
+
+[blue_terracotta_bricks]
+copies = "blue_terracotta"
+tool = "pickaxe"
+
+[blue_terracotta_brick_stairs]
+type = "stairs"
+copies = "blue_terracotta_bricks"
+tool = "pickaxe"
+
+[blue_terracotta_brick_slab]
+type = "slab"
+copies = "blue_terracotta_bricks"
+tool = "pickaxe"
+
+[blue_terracotta_brick_wall]
+type = "wall"
+copies = "blue_terracotta_bricks"
+tool = "pickaxe"
+
+[purple_terracotta_bricks]
+copies = "purple_terracotta"
+tool = "pickaxe"
+
+[purple_terracotta_brick_stairs]
+type = "stairs"
+copies = "purple_terracotta_bricks"
+tool = "pickaxe"
+
+[purple_terracotta_brick_slab]
+type = "slab"
+copies = "purple_terracotta_bricks"
+tool = "pickaxe"
+
+[purple_terracotta_brick_wall]
+type = "wall"
+copies = "purple_terracotta_bricks"
+tool = "pickaxe"
+
+[magenta_terracotta_bricks]
+copies = "magenta_terracotta"
+tool = "pickaxe"
+
+[magenta_terracotta_brick_stairs]
+type = "stairs"
+copies = "magenta_terracotta_bricks"
+tool = "pickaxe"
+
+[magenta_terracotta_brick_slab]
+type = "slab"
+copies = "magenta_terracotta_bricks"
+tool = "pickaxe"
+
+[magenta_terracotta_brick_wall]
+type = "wall"
+copies = "magenta_terracotta_bricks"
+tool = "pickaxe"
+
+[pink_terracotta_bricks]
+copies = "pink_terracotta"
+tool = "pickaxe"
+
+[pink_terracotta_brick_stairs]
+type = "stairs"
+copies = "pink_terracotta_bricks"
+tool = "pickaxe"
+
+[pink_terracotta_brick_slab]
+type = "slab"
+copies = "pink_terracotta_bricks"
+tool = "pickaxe"
+
+[pink_terracotta_brick_wall]
+type = "wall"
+copies = "pink_terracotta_bricks"
+tool = "pickaxe"
+
+[glazed_terracotta]
+copies = "terracotta"
+tool = "pickaxe"
+
+[white_concrete_stairs]
+type = "stairs"
+copies = "white_concrete"
+tool = "pickaxe"
+
+[white_concrete_slab]
+type = "slab"
+copies = "white_concrete"
+tool = "pickaxe"
+
+[white_concrete_wall]
+type = "wall"
+copies = "white_concrete"
+tool = "pickaxe"
+
+[light_gray_concrete_stairs]
+type = "stairs"
+copies = "light_gray_concrete"
+tool = "pickaxe"
+
+[light_gray_concrete_slab]
+type = "slab"
+copies = "light_gray_concrete"
+tool = "pickaxe"
+
+[light_gray_concrete_wall]
+type = "wall"
+copies = "light_gray_concrete"
+tool = "pickaxe"
+
+[gray_concrete_stairs]
+type = "stairs"
+copies = "gray_concrete"
+tool = "pickaxe"
+
+[gray_concrete_slab]
+type = "slab"
+copies = "gray_concrete"
+tool = "pickaxe"
+
+[gray_concrete_wall]
+type = "wall"
+copies = "gray_concrete"
+tool = "pickaxe"
+
+[black_concrete_stairs]
+type = "stairs"
+copies = "black_concrete"
+tool = "pickaxe"
+
+[black_concrete_slab]
+type = "slab"
+copies = "black_concrete"
+tool = "pickaxe"
+
+[black_concrete_wall]
+type = "wall"
+copies = "black_concrete"
+tool = "pickaxe"
+
+[brown_concrete_stairs]
+type = "stairs"
+copies = "brown_concrete"
+tool = "pickaxe"
+
+[brown_concrete_slab]
+type = "slab"
+copies = "brown_concrete"
+tool = "pickaxe"
+
+[brown_concrete_wall]
+type = "wall"
+copies = "brown_concrete"
+tool = "pickaxe"
+
+[red_concrete_stairs]
+type = "stairs"
+copies = "red_concrete"
+tool = "pickaxe"
+
+[red_concrete_slab]
+type = "slab"
+copies = "red_concrete"
+tool = "pickaxe"
+
+[red_concrete_wall]
+type = "wall"
+copies = "red_concrete"
+tool = "pickaxe"
+
+[orange_concrete_stairs]
+type = "stairs"
+copies = "orange_concrete"
+tool = "pickaxe"
+
+[orange_concrete_slab]
+type = "slab"
+copies = "orange_concrete"
+tool = "pickaxe"
+
+[orange_concrete_wall]
+type = "wall"
+copies = "orange_concrete"
+tool = "pickaxe"
+
+[yellow_concrete_stairs]
+type = "stairs"
+copies = "yellow_concrete"
+tool = "pickaxe"
+
+[yellow_concrete_slab]
+type = "slab"
+copies = "yellow_concrete"
+tool = "pickaxe"
+
+[yellow_concrete_wall]
+type = "wall"
+copies = "yellow_concrete"
+tool = "pickaxe"
+
+[lime_concrete_stairs]
+type = "stairs"
+copies = "lime_concrete"
+tool = "pickaxe"
+
+[lime_concrete_slab]
+type = "slab"
+copies = "lime_concrete"
+tool = "pickaxe"
+
+[lime_concrete_wall]
+type = "wall"
+copies = "lime_concrete"
+tool = "pickaxe"
+
+[green_concrete_stairs]
+type = "stairs"
+copies = "green_concrete"
+tool = "pickaxe"
+
+[green_concrete_slab]
+type = "slab"
+copies = "green_concrete"
+tool = "pickaxe"
+
+[green_concrete_wall]
+type = "wall"
+copies = "green_concrete"
+tool = "pickaxe"
+
+[cyan_concrete_stairs]
+type = "stairs"
+copies = "cyan_concrete"
+tool = "pickaxe"
+
+[cyan_concrete_slab]
+type = "slab"
+copies = "cyan_concrete"
+tool = "pickaxe"
+
+[cyan_concrete_wall]
+type = "wall"
+copies = "cyan_concrete"
+tool = "pickaxe"
+
+[light_blue_concrete_stairs]
+type = "stairs"
+copies = "light_blue_concrete"
+tool = "pickaxe"
+
+[light_blue_concrete_slab]
+type = "slab"
+copies = "light_blue_concrete"
+tool = "pickaxe"
+
+[light_blue_concrete_wall]
+type = "wall"
+copies = "light_blue_concrete"
+tool = "pickaxe"
+
+[blue_concrete_stairs]
+type = "stairs"
+copies = "blue_concrete"
+tool = "pickaxe"
+
+[blue_concrete_slab]
+type = "slab"
+copies = "blue_concrete"
+tool = "pickaxe"
+
+[blue_concrete_wall]
+type = "wall"
+copies = "blue_concrete"
+tool = "pickaxe"
+
+[purple_concrete_stairs]
+type = "stairs"
+copies = "purple_concrete"
+tool = "pickaxe"
+
+[purple_concrete_slab]
+type = "slab"
+copies = "purple_concrete"
+tool = "pickaxe"
+
+[purple_concrete_wall]
+type = "wall"
+copies = "purple_concrete"
+tool = "pickaxe"
+
+[magenta_concrete_stairs]
+type = "stairs"
+copies = "magenta_concrete"
+tool = "pickaxe"
+
+[magenta_concrete_slab]
+type = "slab"
+copies = "magenta_concrete"
+tool = "pickaxe"
+
+[magenta_concrete_wall]
+type = "wall"
+copies = "magenta_concrete"
+tool = "pickaxe"
+
+[pink_concrete_stairs]
+type = "stairs"
+copies = "pink_concrete"
+tool = "pickaxe"
+
+[pink_concrete_slab]
+type = "slab"
+copies = "pink_concrete"
+tool = "pickaxe"
+
+[pink_concrete_wall]
+type = "wall"
+copies = "pink_concrete"
+tool = "pickaxe"

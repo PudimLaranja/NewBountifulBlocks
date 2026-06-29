@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": "bountifulblocks:cherry_flooring"
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "id": "bountifulblocks:cherry_flooring_slab",
+        "count": 6
+    }
+}

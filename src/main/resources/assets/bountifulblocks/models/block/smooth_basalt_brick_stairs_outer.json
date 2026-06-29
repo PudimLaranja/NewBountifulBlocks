@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/smooth_basalt_bricks",
+        "side": "bountifulblocks:block/smooth_basalt_bricks",
+        "top": "bountifulblocks:block/smooth_basalt_bricks"
+    }
+}

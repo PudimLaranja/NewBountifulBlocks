@@ -1,0 +1,37 @@
+{
+
+    "blockstates*": {
+        "variants": {
+            "powered=false": {
+                "model": "$namespace:block/$model"
+            },
+            "powered=true": {
+                "model": "$namespace:block/$model_down"
+            }
+        }
+    },
+
+    "models": {"block": {
+       "_": {
+            "parent": "minecraft:block/pressure_plate_up",
+            "textures": {
+                "texture": "$namespace:block/$texture"
+            }
+        },
+
+        "_down": {
+            "parent": "minecraft:block/pressure_plate_down",
+            "textures": {
+                "texture": "$namespace:block/$texture"
+            }
+        }
+
+    }},
+
+    "items*": {
+        "model": {
+            "type": "minecraft:model",
+            "model": "$namespace:block/$model"
+        }
+    }
+}

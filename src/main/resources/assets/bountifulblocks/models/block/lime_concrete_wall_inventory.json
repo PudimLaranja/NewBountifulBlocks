@@ -1,0 +1,7 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/wall_inventory",
+    "textures": {
+        "wall": "minecraft:block/lime_concrete"
+    }
+}

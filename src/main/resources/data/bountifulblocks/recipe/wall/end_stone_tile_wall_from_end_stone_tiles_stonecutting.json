@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:end_stone_tiles",
+    "result": {
+        "id": "bountifulblocks:end_stone_tile_wall",
+        "count": 1
+    }
+}

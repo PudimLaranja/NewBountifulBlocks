@@ -1,0 +1,14 @@
+{
+    "generated": true,
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/polished_smooth_basalt_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/polished_smooth_basalt"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/polished_smooth_basalt_slab_top"
+        }
+    }
+}

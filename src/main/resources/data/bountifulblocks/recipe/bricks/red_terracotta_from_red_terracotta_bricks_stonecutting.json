@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:red_terracotta_bricks",
+    "result": {
+        "id": "minecraft:red_terracotta",
+        "count": 1
+    }
+}

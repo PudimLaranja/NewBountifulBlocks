@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "minecraft:block/packed_ice",
+        "side": "minecraft:block/packed_ice",
+        "top": "minecraft:block/packed_ice"
+    }
+}

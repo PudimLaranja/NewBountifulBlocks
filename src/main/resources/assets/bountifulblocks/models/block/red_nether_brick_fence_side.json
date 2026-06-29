@@ -1,0 +1,7 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/fence_side",
+    "textures": {
+        "texture": "minecraft:block/red_nether_bricks"
+    }
+}

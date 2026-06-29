@@ -1,0 +1,14 @@
+{
+    "generated": true,
+    "variants": {
+        "type=bottom": {
+            "model": "bountifulblocks:block/polished_end_stone_slab"
+        },
+        "type=double": {
+            "model": "bountifulblocks:block/polished_end_stone"
+        },
+        "type=top": {
+            "model": "bountifulblocks:block/polished_end_stone_slab_top"
+        }
+    }
+}

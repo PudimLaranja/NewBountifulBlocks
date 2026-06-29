@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": "bountifulblocks:ice_tiles"
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "id": "bountifulblocks:chiseled_ice",
+        "count": 1
+    }
+}

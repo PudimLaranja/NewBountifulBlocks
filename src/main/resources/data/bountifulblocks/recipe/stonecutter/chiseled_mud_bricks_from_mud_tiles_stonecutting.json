@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:mud_tiles",
+    "result": {
+        "id": "bountifulblocks:chiseled_mud_bricks",
+        "count": 1
+    }
+}

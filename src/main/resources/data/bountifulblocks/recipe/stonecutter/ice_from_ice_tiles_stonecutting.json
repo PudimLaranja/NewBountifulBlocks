@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:ice_tiles",
+    "result": {
+        "id": "minecraft:ice",
+        "count": 1
+    }
+}

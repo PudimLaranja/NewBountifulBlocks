@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:andesite_tiles",
+    "result": {
+        "id": "minecraft:andesite",
+        "count": 1
+    }
+}

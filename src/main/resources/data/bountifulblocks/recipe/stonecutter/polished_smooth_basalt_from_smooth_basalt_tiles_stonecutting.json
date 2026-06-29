@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:smooth_basalt_tiles",
+    "result": {
+        "id": "bountifulblocks:polished_smooth_basalt",
+        "count": 1
+    }
+}

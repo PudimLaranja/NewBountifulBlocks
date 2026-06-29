@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/ice_tiles",
+        "side": "bountifulblocks:block/ice_tiles",
+        "top": "bountifulblocks:block/ice_tiles"
+    }
+}

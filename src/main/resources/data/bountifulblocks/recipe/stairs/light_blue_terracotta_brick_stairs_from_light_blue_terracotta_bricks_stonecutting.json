@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:light_blue_terracotta_bricks",
+    "result": {
+        "id": "bountifulblocks:light_blue_terracotta_brick_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/bamboo_planks",
+        "side": "bountifulblocks:block/carved_bamboo_planks"
+    }
+}

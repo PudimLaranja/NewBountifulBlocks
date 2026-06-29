@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:green_terracotta_bricks",
+    "result": {
+        "id": "bountifulblocks:green_terracotta_brick_stairs",
+        "count": 1
+    }
+}

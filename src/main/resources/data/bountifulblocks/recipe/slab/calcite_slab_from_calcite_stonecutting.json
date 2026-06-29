@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:calcite",
+    "result": {
+        "id": "bountifulblocks:calcite_slab",
+        "count": 2
+    }
+}

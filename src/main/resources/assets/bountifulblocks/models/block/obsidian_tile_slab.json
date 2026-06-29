@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "bountifulblocks:block/obsidian_tiles",
+        "side": "bountifulblocks:block/obsidian_tiles",
+        "top": "bountifulblocks:block/obsidian_tiles"
+    }
+}

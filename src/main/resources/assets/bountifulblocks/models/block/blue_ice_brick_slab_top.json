@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "bountifulblocks:block/blue_ice_bricks",
+        "side": "bountifulblocks:block/blue_ice_bricks",
+        "top": "bountifulblocks:block/blue_ice_bricks"
+    }
+}

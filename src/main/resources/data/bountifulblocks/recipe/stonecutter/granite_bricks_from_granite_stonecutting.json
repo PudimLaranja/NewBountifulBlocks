@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:granite",
+    "result": {
+        "id": "bountifulblocks:granite_bricks",
+        "count": 1
+    }
+}

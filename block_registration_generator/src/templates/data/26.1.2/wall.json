@@ -1,0 +1,134 @@
+{
+
+
+   "blockstates*": {
+        "multipart": [
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_post"
+                },
+                "when": {
+                    "up": "true"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side",
+                    "uvlock": true
+                },
+                "when": {
+                    "north": "low"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side",
+                    "uvlock": true,
+                    "y": 90
+                },
+                "when": {
+                    "east": "low"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side",
+                    "uvlock": true,
+                    "y": 180
+                },
+                "when": {
+                    "south": "low"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side",
+                    "uvlock": true,
+                    "y": 270
+                },
+                "when": {
+                    "west": "low"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side_tall",
+                    "uvlock": true
+                },
+                "when": {
+                    "north": "tall"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side_tall",
+                    "uvlock": true,
+                    "y": 90
+                },
+                "when": {
+                    "east": "tall"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side_tall",
+                    "uvlock": true,
+                    "y": 180
+                },
+                "when": {
+                    "south": "tall"
+                }
+            },
+            {
+                "apply": {
+                    "model": "$namespace:block/$model_side_tall",
+                    "uvlock": true,
+                    "y": 270
+                },
+                "when": {
+                    "west": "tall"
+                }
+            }
+        ]
+    },
+
+
+    "models": {"block": {
+        "_inventory": {
+            "parent": "minecraft:block/wall_inventory",
+            "textures": {
+                "wall": "$namespace:block/$texture"
+            }
+        },
+
+        "_post": {
+            "parent": "minecraft:block/template_wall_post",
+            "textures": {
+                "wall": "$namespace:block/$texture"
+            }
+        },
+
+        "_side": {
+            "parent": "minecraft:block/template_wall_side",
+            "textures": {
+                "wall": "$namespace:block/$texture"
+            }
+        },
+
+        "_side_tall": {
+            "parent": "minecraft:block/template_wall_side_tall",
+            "textures": {
+                "wall": "$namespace:block/$texture"
+            }
+        }
+    }},
+
+    "items*": {
+        "model": {
+            "type": "minecraft:model",
+            "model": "$namespace:block/$model_inventory"
+        }
+    }
+
+
+}

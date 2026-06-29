@@ -1,0 +1,8 @@
+{
+    "generated": true,
+    "variants": {
+        "": {
+            "model": "bountifulblocks:block/mud_tiles"
+        }
+    }
+}

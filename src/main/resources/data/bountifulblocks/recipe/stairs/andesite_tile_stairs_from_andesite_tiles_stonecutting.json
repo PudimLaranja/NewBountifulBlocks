@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:andesite_tiles",
+    "result": {
+        "id": "bountifulblocks:andesite_tile_stairs",
+        "count": 1
+    }
+}

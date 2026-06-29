@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "bountifulblocks:block/polished_end_stone",
+        "side": "bountifulblocks:block/polished_end_stone",
+        "top": "bountifulblocks:block/polished_end_stone"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:orange_terracotta",
+    "result": {
+        "id": "bountifulblocks:orange_terracotta_slab",
+        "count": 2
+    }
+}

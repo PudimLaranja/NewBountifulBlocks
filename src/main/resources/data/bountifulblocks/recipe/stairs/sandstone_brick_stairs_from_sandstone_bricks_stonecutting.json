@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "bountifulblocks:sandstone_bricks",
+    "result": {
+        "id": "bountifulblocks:sandstone_brick_stairs",
+        "count": 1
+    }
+}

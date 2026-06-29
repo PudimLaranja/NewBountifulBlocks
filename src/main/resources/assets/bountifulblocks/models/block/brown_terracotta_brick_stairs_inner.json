@@ -1,0 +1,9 @@
+{
+    "generated": true,
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "bountifulblocks:block/brown_terracotta_bricks",
+        "side": "bountifulblocks:block/brown_terracotta_bricks",
+        "top": "bountifulblocks:block/brown_terracotta_bricks"
+    }
+}

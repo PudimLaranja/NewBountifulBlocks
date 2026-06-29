@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "carpet",
+    "key": {
+        "#": "bountifulblocks:green_threaded_wool"
+    },
+    "pattern": [
+        "##"
+    ],
+    "result": {
+        "id": "bountifulblocks:green_threaded_carpet",
+        "count": 3
+    }
+}
