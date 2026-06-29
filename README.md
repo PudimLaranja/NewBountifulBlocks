@@ -1,6 +1,6 @@
 # NewBountifulBlocks
 
-This mod is a port of the mod **[BountifulBlock](https://github.com/uItimatech/BountifulBlocks)** by **[Utimatech](https://github.com/uItimatech)** to minecraft version 26.2.
+This mod is a port of the mod **[BountifulBlocks](https://github.com/uItimatech/BountifulBlocks)** by **[Utimatech](https://github.com/uItimatech)** to minecraft version 26.2.
 
 All the rights for the art and mechanics used in this mod are granted to **[Utimatech](https://github.com/uItimatech)**
 
