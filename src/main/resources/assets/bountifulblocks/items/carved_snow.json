@@ -1,7 +1,6 @@
 {
-    "generated": true,
-    "model": {
-        "model": "bountifulblocks:block/carved_snow",
-        "type": "minecraft:model"
-    }
+  "model": {
+    "model": "bountifulblocks:block/carved_snow",
+    "type": "minecraft:model"
+  }
 }

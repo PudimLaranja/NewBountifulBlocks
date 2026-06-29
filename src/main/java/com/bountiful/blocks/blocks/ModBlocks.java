@@ -55,13 +55,13 @@ public class ModBlocks {
             BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_CHAIN),
             true
     );
-//new WeightedPressurePlateBlock(150, BlockSetType.IRON, p),
-// Properties.of()
-// .mapColor(MapColor.METAL)
-// .forceSolidOn()
-// .noCollision()
-// .strength(0.5F)
-// .pushReaction(PushReaction.DESTROY));
+
+    public static final Block GLAZED_TERRACOTTA = register(
+            "glazed_terracotta",
+            GlazedTerracottaBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA),
+            true
+    );
 
     //$blockRegistration:start
     public static final Block STONE_WALL = register(
@@ -384,7 +384,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_MOSSY_COBBLESTONE = register(
             "infested_mossy_cobblestone",
-            Block::new,
+            (settings) -> new InfestedBlock(Blocks.MOSSY_COBBLESTONE,settings),
             BlockBehaviour.Properties.ofFullCopy(Blocks.MOSSY_COBBLESTONE),
             true
     );
@@ -396,7 +396,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_COBBLESTONE_BRICKS = register(
             "infested_cobblestone_bricks",
-            Block::new,
+            (settings) -> new InfestedBlock(COBBLESTONE_BRICKS,settings),
             BlockBehaviour.Properties.ofFullCopy(COBBLESTONE_BRICKS),
             true
     );
@@ -426,7 +426,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_MOSSY_COBBLESTONE_BRICKS = register(
             "infested_mossy_cobblestone_bricks",
-            Block::new,
+            (settings) -> new InfestedBlock(MOSSY_COBBLESTONE_BRICKS,settings),
             BlockBehaviour.Properties.ofFullCopy(MOSSY_COBBLESTONE_BRICKS),
             true
     );
@@ -546,25 +546,25 @@ public class ModBlocks {
     );
     public static final Block INFESTED_COBBLESTONE_TILES = register(
             "infested_cobblestone_tiles",
-            Block::new,
+            (settings) -> new InfestedBlock(COBBLESTONE_TILES,settings),
             BlockBehaviour.Properties.ofFullCopy(COBBLESTONE_TILES),
             true
     );
     public static final Block INFESTED_MOSSY_COBBLESTONE_TILES = register(
             "infested_mossy_cobblestone_tiles",
-            Block::new,
+            (settings) -> new InfestedBlock(MOSSY_COBBLESTONE_TILES,settings),
             BlockBehaviour.Properties.ofFullCopy(MOSSY_COBBLESTONE_TILES),
             true
     );
     public static final Block INFESTED_POLISHED_COBBLESTONE = register(
             "infested_polished_cobblestone",
-            Block::new,
+            (settings) -> new InfestedBlock(POLISHED_COBBLESTONE,settings),
             BlockBehaviour.Properties.ofFullCopy(POLISHED_COBBLESTONE),
             true
     );
     public static final Block INFESTED_POLISHED_MOSSY_COBBLESTONE = register(
             "infested_polished_mossy_cobblestone",
-            Block::new,
+            (settings) -> new InfestedBlock(POLISHED_MOSSY_COBBLESTONE,settings),
             BlockBehaviour.Properties.ofFullCopy(POLISHED_MOSSY_COBBLESTONE),
             true
     );
@@ -576,7 +576,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_MOSSY_CRACKED_STONE_BRICKS = register(
             "infested_mossy_cracked_stone_bricks",
-            Block::new,
+            (settings) -> new InfestedBlock(MOSSY_CRACKED_STONE_BRICKS,settings),
             BlockBehaviour.Properties.ofFullCopy(MOSSY_CRACKED_STONE_BRICKS),
             true
     );
@@ -588,7 +588,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_MOSSY_CHISELED_STONE_BRICKS = register(
             "infested_mossy_chiseled_stone_bricks",
-            Block::new,
+            (settings) -> new InfestedBlock(MOSSY_CHISELED_STONE_BRICKS,settings),
             BlockBehaviour.Properties.ofFullCopy(MOSSY_CHISELED_STONE_BRICKS),
             true
     );
@@ -600,7 +600,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_STONE_TILES = register(
             "infested_stone_tiles",
-            Block::new,
+            (settings) -> new InfestedBlock(STONE_TILES,settings),
             BlockBehaviour.Properties.ofFullCopy(STONE_TILES),
             true
     );
@@ -630,7 +630,7 @@ public class ModBlocks {
     );
     public static final Block INFESTED_MOSSY_STONE_TILES = register(
             "infested_mossy_stone_tiles",
-            Block::new,
+            (settings) -> new InfestedBlock(MOSSY_STONE_TILES,settings),
             BlockBehaviour.Properties.ofFullCopy(MOSSY_STONE_TILES),
             true
     );
@@ -2824,12 +2824,6 @@ public class ModBlocks {
             BlockBehaviour.Properties.ofFullCopy(PINK_TERRACOTTA_BRICKS),
             true
     );
-    public static final Block GLAZED_TERRACOTTA = register(
-            "glazed_terracotta",
-            Block::new,
-            BlockBehaviour.Properties.ofFullCopy(Blocks.TERRACOTTA),
-            true
-    );
     public static final Block WHITE_CONCRETE_STAIRS = register(
             "white_concrete_stairs",
             (settings) -> new StairBlock(Blocks.WHITE_CONCRETE.defaultBlockState(),settings),
@@ -3152,14 +3146,18 @@ public class ModBlocks {
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register((tab) -> {
             tab.accept(CARVED_SNOW.asItem());
+            tab.accept(LARGE_CHAIN.asItem());
             //$tabRegistration:start
     tab.accept(STONE_WALL.asItem());
     tab.accept(CHISELED_SMOOTH_STONE.asItem());
+    tab.accept(SMOOTH_STONE_STAIRS.asItem());
     tab.accept(SMOOTH_STONE_WALL.asItem());
     tab.accept(SMOOTH_STONE_BRICKS.asItem());
+    tab.accept(SMOOTH_STONE_BRICK_STAIRS.asItem());
     tab.accept(SMOOTH_STONE_BRICK_SLAB.asItem());
     tab.accept(SMOOTH_STONE_BRICK_WALL.asItem());
     tab.accept(SMOOTH_STONE_TILES.asItem());
+    tab.accept(SMOOTH_STONE_TILE_STAIRS.asItem());
     tab.accept(SMOOTH_STONE_TILE_SLAB.asItem());
     tab.accept(SMOOTH_STONE_TILES_WALL.asItem());
     tab.accept(CARVED_OAK_PLANKS.asItem());
@@ -3183,35 +3181,51 @@ public class ModBlocks {
     tab.accept(CHERRY_FLOORING.asItem());
     tab.accept(CRIMSON_FLOORING.asItem());
     tab.accept(WARPED_FLOORING.asItem());
+    tab.accept(OAK_FLOORING_STAIRS.asItem());
     tab.accept(OAK_FLOORING_SLAB.asItem());
+    tab.accept(SPRUCE_FLOORING_STAIRS.asItem());
     tab.accept(SPRUCE_FLOORING_SLAB.asItem());
+    tab.accept(BIRCH_FLOORING_STAIRS.asItem());
     tab.accept(BIRCH_FLOORING_SLAB.asItem());
+    tab.accept(JUNGLE_FLOORING_STAIRS.asItem());
     tab.accept(JUNGLE_FLOORING_SLAB.asItem());
+    tab.accept(ACACIA_FLOORING_STAIRS.asItem());
     tab.accept(ACACIA_FLOORING_SLAB.asItem());
+    tab.accept(DARK_OAK_FLOORING_STAIRS.asItem());
     tab.accept(DARK_OAK_FLOORING_SLAB.asItem());
+    tab.accept(MANGROVE_FLOORING_STAIRS.asItem());
     tab.accept(MANGROVE_FLOORING_SLAB.asItem());
+    tab.accept(CHERRY_FLOORING_STAIRS.asItem());
     tab.accept(CHERRY_FLOORING_SLAB.asItem());
+    tab.accept(CRIMSON_FLOORING_STAIRS.asItem());
     tab.accept(CRIMSON_FLOORING_SLAB.asItem());
+    tab.accept(WARPED_FLOORING_STAIRS.asItem());
     tab.accept(WARPED_FLOORING_SLAB.asItem());
     tab.accept(INFESTED_MOSSY_COBBLESTONE.asItem());
     tab.accept(COBBLESTONE_BRICKS.asItem());
     tab.accept(INFESTED_COBBLESTONE_BRICKS.asItem());
+    tab.accept(COBBLESTONE_BRICK_STAIRS.asItem());
     tab.accept(COBBLESTONE_BRICK_SLAB.asItem());
     tab.accept(COBBLESTONE_BRICK_WALL.asItem());
     tab.accept(MOSSY_COBBLESTONE_BRICKS.asItem());
     tab.accept(INFESTED_MOSSY_COBBLESTONE_BRICKS.asItem());
+    tab.accept(MOSSY_COBBLESTONE_BRICK_STAIRS.asItem());
     tab.accept(MOSSY_COBBLESTONE_BRICK_SLAB.asItem());
     tab.accept(MOSSY_COBBLESTONE_BRICK_WALL.asItem());
     tab.accept(POLISHED_COBBLESTONE.asItem());
+    tab.accept(POLISHED_COBBLESTONE_STAIRS.asItem());
     tab.accept(POLISHED_COBBLESTONE_SLAB.asItem());
     tab.accept(POLISHED_COBBLESTONE_WALL.asItem());
     tab.accept(COBBLESTONE_TILES.asItem());
+    tab.accept(COBBLESTONE_TILE_STAIRS.asItem());
     tab.accept(COBBLESTONE_TILE_SLAB.asItem());
     tab.accept(COBBLESTONE_TILE_WALL.asItem());
     tab.accept(POLISHED_MOSSY_COBBLESTONE.asItem());
+    tab.accept(POLISHED_MOSSY_COBBLESTONE_STAIRS.asItem());
     tab.accept(POLISHED_MOSSY_COBBLESTONE_SLAB.asItem());
     tab.accept(POLISHED_MOSSY_COBBLESTONE_WALL.asItem());
     tab.accept(MOSSY_COBBLESTONE_TILES.asItem());
+    tab.accept(MOSSY_COBBLESTONE_TILE_STAIRS.asItem());
     tab.accept(MOSSY_COBBLESTONE_TILE_SLAB.asItem());
     tab.accept(MOSSY_COBBLESTONE_TILE_WALL.asItem());
     tab.accept(INFESTED_COBBLESTONE_TILES.asItem());
@@ -3224,171 +3238,222 @@ public class ModBlocks {
     tab.accept(INFESTED_MOSSY_CHISELED_STONE_BRICKS.asItem());
     tab.accept(STONE_TILES.asItem());
     tab.accept(INFESTED_STONE_TILES.asItem());
+    tab.accept(STONE_TILE_STAIRS.asItem());
     tab.accept(STONE_TILE_SLAB.asItem());
     tab.accept(STONE_TILE_WALL.asItem());
     tab.accept(MOSSY_STONE_TILES.asItem());
     tab.accept(INFESTED_MOSSY_STONE_TILES.asItem());
+    tab.accept(MOSSY_STONE_TILE_STAIRS.asItem());
     tab.accept(MOSSY_STONE_TILE_SLAB.asItem());
     tab.accept(MOSSY_STONE_TILE_WALL.asItem());
     tab.accept(POLISHED_ANDESITE_WALL.asItem());
     tab.accept(CHISELED_ANDESITE.asItem());
     tab.accept(ANDESITE_BRICKS.asItem());
+    tab.accept(ANDESITE_BRICK_STAIRS.asItem());
     tab.accept(ANDESITE_BRICK_SLAB.asItem());
     tab.accept(ANDESITE_BRICK_WALL.asItem());
     tab.accept(ANDESITE_TILES.asItem());
+    tab.accept(ANDESITE_TILE_STAIRS.asItem());
     tab.accept(ANDESITE_TILE_SLAB.asItem());
     tab.accept(ANDESITE_TILE_WALL.asItem());
     tab.accept(POLISHED_DIORITE_WALL.asItem());
     tab.accept(CHISELED_DIORITE.asItem());
     tab.accept(DIORITE_BRICKS.asItem());
+    tab.accept(DIORITE_BRICK_STAIRS.asItem());
     tab.accept(DIORITE_BRICK_SLAB.asItem());
     tab.accept(DIORITE_BRICK_WALL.asItem());
     tab.accept(DIORITE_TILES.asItem());
+    tab.accept(DIORITE_TILE_STAIRS.asItem());
     tab.accept(DIORITE_TILE_SLAB.asItem());
     tab.accept(DIORITE_TILE_WALL.asItem());
     tab.accept(POLISHED_GRANITE_WALL.asItem());
     tab.accept(CHISELED_GRANITE.asItem());
     tab.accept(GRANITE_BRICKS.asItem());
+    tab.accept(GRANITE_BRICK_STAIRS.asItem());
     tab.accept(GRANITE_BRICK_SLAB.asItem());
     tab.accept(GRANITE_BRICK_WALL.asItem());
     tab.accept(GRANITE_TILES.asItem());
+    tab.accept(GRANITE_TILE_STAIRS.asItem());
     tab.accept(GRANITE_TILE_SLAB.asItem());
     tab.accept(GRANITE_TILE_WALL.asItem());
+    tab.accept(DRIPSTONE_STAIRS.asItem());
     tab.accept(DRIPSTONE_SLAB.asItem());
     tab.accept(DRIPSTONE_WALL.asItem());
     tab.accept(POLISHED_DRIPSTONE.asItem());
+    tab.accept(POLISHED_DRIPSTONE_STAIRS.asItem());
     tab.accept(POLISHED_DRIPSTONE_SLAB.asItem());
     tab.accept(POLISHED_DRIPSTONE_WALL.asItem());
     tab.accept(CHISELED_DRIPSTONE.asItem());
     tab.accept(DRIPSTONE_BRICKS.asItem());
+    tab.accept(DRIPSTONE_BRICK_STAIRS.asItem());
     tab.accept(DRIPSTONE_BRICK_SLAB.asItem());
     tab.accept(DRIPSTONE_BRICK_WALL.asItem());
     tab.accept(DRIPSTONE_TILES.asItem());
+    tab.accept(DRIPSTONE_TILE_STAIRS.asItem());
     tab.accept(DRIPSTONE_TILE_SLAB.asItem());
     tab.accept(DRIPSTONE_TILE_WALL.asItem());
     tab.accept(PRISMARINE_BRICK_WALL.asItem());
     tab.accept(DARK_PRISMARINE_WALL.asItem());
     tab.accept(SMOOTH_SANDSTONE_WALL.asItem());
+    tab.accept(CUT_SANDSTONE_STAIRS.asItem());
     tab.accept(CUT_SANDSTONE_WALL.asItem());
     tab.accept(SANDSTONE_BRICKS.asItem());
+    tab.accept(SANDSTONE_BRICK_STAIRS.asItem());
     tab.accept(SANDSTONE_BRICK_SLAB.asItem());
     tab.accept(SANDSTONE_BRICK_WALL.asItem());
     tab.accept(SANDSTONE_TILES.asItem());
+    tab.accept(SANDSTONE_TILE_STAIRS.asItem());
     tab.accept(SANDSTONE_TILE_SLAB.asItem());
     tab.accept(SANDSTONE_TILE_WALL.asItem());
     tab.accept(SMOOTH_RED_SANDSTONE_WALL.asItem());
+    tab.accept(CUT_RED_SANDSTONE_STAIRS.asItem());
     tab.accept(CUT_RED_SANDSTONE_WALL.asItem());
     tab.accept(RED_SANDSTONE_BRICKS.asItem());
+    tab.accept(RED_SANDSTONE_BRICK_STAIRS.asItem());
     tab.accept(RED_SANDSTONE_BRICK_SLAB.asItem());
     tab.accept(RED_SANDSTONE_BRICK_WALL.asItem());
     tab.accept(RED_SANDSTONE_TILES.asItem());
+    tab.accept(RED_SANDSTONE_TILE_STAIRS.asItem());
     tab.accept(RED_SANDSTONE_TILE_SLAB.asItem());
     tab.accept(RED_SANDSTONE_TILE_WALL.asItem());
+    tab.accept(DEEPSLATE_STAIRS.asItem());
     tab.accept(DEEPSLATE_SLAB.asItem());
     tab.accept(DEEPSLATE_WALL.asItem());
     tab.accept(TUFF_TILES.asItem());
+    tab.accept(TUFF_TILE_STAIRS.asItem());
     tab.accept(TUFF_TILE_SLAB.asItem());
     tab.accept(TUFF_TILE_WALL.asItem());
+    tab.accept(CALCITE_STAIRS.asItem());
     tab.accept(CALCITE_SLAB.asItem());
     tab.accept(CALCITE_WALL.asItem());
     tab.accept(CHISELED_CALCITE.asItem());
     tab.accept(POLISHED_CALCITE.asItem());
+    tab.accept(POLISHED_CALCITE_STAIRS.asItem());
     tab.accept(POLISHED_CALCITE_SLAB.asItem());
     tab.accept(POLISHED_CALCITE_WALL.asItem());
     tab.accept(CALCITE_BRICKS.asItem());
+    tab.accept(CALCITE_BRICK_STAIRS.asItem());
     tab.accept(CALCITE_BRICK_SLAB.asItem());
     tab.accept(CALCITE_BRICK_WALL.asItem());
     tab.accept(CALCITE_TILES.asItem());
+    tab.accept(CALCITE_TILE_STAIRS.asItem());
     tab.accept(CALCITE_TILE_SLAB.asItem());
     tab.accept(CALCITE_TILE_WALL.asItem());
+    tab.accept(PACKED_MUD_STAIRS.asItem());
     tab.accept(PACKED_MUD_SLAB.asItem());
     tab.accept(PACKED_MUD_WALL.asItem());
     tab.accept(MUD_TILES.asItem());
+    tab.accept(MUD_TILE_STAIRS.asItem());
     tab.accept(MUD_TILE_SLAB.asItem());
     tab.accept(MUD_TILE_WALL.asItem());
     tab.accept(CHISELED_MUD_BRICKS.asItem());
     tab.accept(SMOOTH_MUD.asItem());
+    tab.accept(SMOOTH_MUD_STAIRS.asItem());
     tab.accept(SMOOTH_MUD_SLAB.asItem());
     tab.accept(SMOOTH_MUD_WALL.asItem());
     tab.accept(CHISELED_OBSIDIAN.asItem());
     tab.accept(POLISHED_OBSIDIAN.asItem());
+    tab.accept(POLISHED_OBSIDIAN_STAIRS.asItem());
     tab.accept(POLISHED_OBSIDIAN_SLAB.asItem());
     tab.accept(POLISHED_OBSIDIAN_WALL.asItem());
     tab.accept(OBSIDIAN_BRICKS.asItem());
+    tab.accept(OBSIDIAN_BRICK_STAIRS.asItem());
     tab.accept(OBSIDIAN_BRICK_SLAB.asItem());
     tab.accept(OBSIDIAN_BRICK_WALL.asItem());
     tab.accept(OBSIDIAN_TILES.asItem());
+    tab.accept(OBSIDIAN_TILE_STAIRS.asItem());
     tab.accept(OBSIDIAN_TILE_SLAB.asItem());
     tab.accept(OBSIDIAN_TILE_WALL.asItem());
     tab.accept(CRACKED_RED_NETHER_BRICKS.asItem());
     tab.accept(CHISELED_RED_NETHER_BRICKS.asItem());
     tab.accept(RED_NETHER_BRICK_FENCE.asItem());
+    tab.accept(END_STONE_STAIRS.asItem());
     tab.accept(END_STONE_SLAB.asItem());
     tab.accept(END_STONE_WALL.asItem());
     tab.accept(CHISELED_END_STONE.asItem());
     tab.accept(POLISHED_END_STONE.asItem());
+    tab.accept(POLISHED_END_STONE_STAIRS.asItem());
     tab.accept(POLISHED_END_STONE_SLAB.asItem());
     tab.accept(POLISHED_END_STONE_WALL.asItem());
     tab.accept(END_STONE_TILES.asItem());
+    tab.accept(END_STONE_TILE_STAIRS.asItem());
     tab.accept(END_STONE_TILE_SLAB.asItem());
     tab.accept(END_STONE_TILE_WALL.asItem());
     tab.accept(CHISELED_PURPUR.asItem());
     tab.accept(POLISHED_PURPUR.asItem());
+    tab.accept(POLISHED_PURPUR_STAIRS.asItem());
     tab.accept(POLISHED_PURPUR_SLAB.asItem());
     tab.accept(POLISHED_PURPUR_WALL.asItem());
     tab.accept(PURPUR_BRICKS.asItem());
+    tab.accept(PURPUR_BRICK_STAIRS.asItem());
     tab.accept(PURPUR_BRICK_SLAB.asItem());
     tab.accept(PURPUR_BRICK_WALL.asItem());
     tab.accept(PURPUR_TILE_WALL.asItem());
     tab.accept(BLACKSTONE_TILES.asItem());
+    tab.accept(BLACKSTONE_TILE_STAIRS.asItem());
     tab.accept(BLACKSTONE_TILE_SLAB.asItem());
     tab.accept(BLACKSTONE_TILE_WALL.asItem());
+    tab.accept(SMOOTH_BASALT_STAIRS.asItem());
     tab.accept(SMOOTH_BASALT_SLAB.asItem());
     tab.accept(SMOOTH_BASALT_WALL.asItem());
     tab.accept(POLISHED_SMOOTH_BASALT.asItem());
+    tab.accept(POLISHED_SMOOTH_BASALT_STAIRS.asItem());
     tab.accept(POLISHED_SMOOTH_BASALT_SLAB.asItem());
     tab.accept(POLISHED_SMOOTH_BASALT_WALL.asItem());
     tab.accept(SMOOTH_BASALT_BRICKS.asItem());
+    tab.accept(SMOOTH_BASALT_BRICK_STAIRS.asItem());
     tab.accept(SMOOTH_BASALT_BRICK_SLAB.asItem());
     tab.accept(SMOOTH_BASALT_BRICK_WALL.asItem());
     tab.accept(CRACKED_SMOOTH_BASALT_BRICKS.asItem());
     tab.accept(CHISELED_SMOOTH_BASALT.asItem());
     tab.accept(SMOOTH_BASALT_TILES.asItem());
+    tab.accept(SMOOTH_BASALT_TILE_STAIRS.asItem());
     tab.accept(SMOOTH_BASALT_TILE_SLAB.asItem());
     tab.accept(SMOOTH_BASALT_TILE_WALL.asItem());
     tab.accept(PACKED_SNOW.asItem());
+    tab.accept(PACKED_SNOW_STAIRS.asItem());
     tab.accept(PACKED_SNOW_SLAB.asItem());
     tab.accept(PACKED_SNOW_WALL.asItem());
     tab.accept(SNOW_BRICKS.asItem());
+    tab.accept(SNOW_BRICK_STAIRS.asItem());
     tab.accept(SNOW_BRICK_SLAB.asItem());
     tab.accept(SNOW_BRICK_WALL.asItem());
     tab.accept(POLISHED_ICE.asItem());
+    tab.accept(POLISHED_ICE_STAIRS.asItem());
     tab.accept(POLISHED_ICE_SLAB.asItem());
     tab.accept(POLISHED_ICE_WALL.asItem());
     tab.accept(ICE_BRICKS.asItem());
+    tab.accept(ICE_BRICK_STAIRS.asItem());
     tab.accept(ICE_BRICK_SLAB.asItem());
     tab.accept(ICE_BRICK_WALL.asItem());
     tab.accept(ICE_TILES.asItem());
+    tab.accept(ICE_TILE_STAIRS.asItem());
     tab.accept(ICE_TILE_SLAB.asItem());
     tab.accept(ICE_TILE_WALL.asItem());
     tab.accept(CHISELED_ICE.asItem());
     tab.accept(POLISHED_PACKED_ICE.asItem());
+    tab.accept(POLISHED_PACKED_ICE_STAIRS.asItem());
     tab.accept(POLISHED_PACKED_ICE_SLAB.asItem());
     tab.accept(POLISHED_PACKED_ICE_WALL.asItem());
     tab.accept(PACKED_ICE_BRICKS.asItem());
+    tab.accept(PACKED_ICE_BRICK_STAIRS.asItem());
     tab.accept(PACKED_ICE_BRICK_SLAB.asItem());
     tab.accept(PACKED_ICE_BRICK_WALL.asItem());
     tab.accept(PACKED_ICE_TILES.asItem());
+    tab.accept(PACKED_ICE_TILE_STAIRS.asItem());
     tab.accept(PACKED_ICE_TILE_SLAB.asItem());
     tab.accept(PACKED_ICE_TILE_WALL.asItem());
     tab.accept(CHISELED_PACKED_ICE.asItem());
     tab.accept(POLISHED_BLUE_ICE.asItem());
+    tab.accept(POLISHED_BLUE_ICE_STAIRS.asItem());
     tab.accept(POLISHED_BLUE_ICE_SLAB.asItem());
     tab.accept(POLISHED_BLUE_ICE_WALL.asItem());
     tab.accept(BLUE_ICE_BRICKS.asItem());
+    tab.accept(BLUE_ICE_BRICK_STAIRS.asItem());
     tab.accept(BLUE_ICE_BRICK_SLAB.asItem());
     tab.accept(BLUE_ICE_BRICK_WALL.asItem());
     tab.accept(BLUE_ICE_TILES.asItem());
+    tab.accept(BLUE_ICE_TILE_STAIRS.asItem());
     tab.accept(BLUE_ICE_TILE_SLAB.asItem());
     tab.accept(BLUE_ICE_TILE_WALL.asItem());
     tab.accept(CHISELED_BLUE_ICE.asItem());
@@ -3424,122 +3489,171 @@ public class ModBlocks {
     tab.accept(MAGENTA_THREADED_CARPET.asItem());
     tab.accept(PINK_THREADED_WOOL.asItem());
     tab.accept(PINK_THREADED_CARPET.asItem());
+    tab.accept(TERRACOTTA_STAIRS.asItem());
     tab.accept(TERRACOTTA_SLAB.asItem());
     tab.accept(TERRACOTTA_WALL.asItem());
+    tab.accept(LIGHT_GRAY_TERRACOTTA_STAIRS.asItem());
     tab.accept(LIGHT_GRAY_TERRACOTTA_SLAB.asItem());
     tab.accept(LIGHT_GRAY_TERRACOTTA_WALL.asItem());
+    tab.accept(GRAY_TERRACOTTA_STAIRS.asItem());
     tab.accept(GRAY_TERRACOTTA_SLAB.asItem());
     tab.accept(GRAY_TERRACOTTA_WALL.asItem());
+    tab.accept(BLACK_TERRACOTTA_STAIRS.asItem());
     tab.accept(BLACK_TERRACOTTA_SLAB.asItem());
     tab.accept(BLACK_TERRACOTTA_WALL.asItem());
+    tab.accept(WHITE_TERRACOTTA_STAIRS.asItem());
     tab.accept(WHITE_TERRACOTTA_SLAB.asItem());
     tab.accept(WHITE_TERRACOTTA_WALL.asItem());
+    tab.accept(BROWN_TERRACOTTA_STAIRS.asItem());
     tab.accept(BROWN_TERRACOTTA_SLAB.asItem());
     tab.accept(BROWN_TERRACOTTA_WALL.asItem());
+    tab.accept(RED_TERRACOTTA_STAIRS.asItem());
     tab.accept(RED_TERRACOTTA_SLAB.asItem());
     tab.accept(RED_TERRACOTTA_WALL.asItem());
+    tab.accept(ORANGE_TERRACOTTA_STAIRS.asItem());
     tab.accept(ORANGE_TERRACOTTA_SLAB.asItem());
     tab.accept(ORANGE_TERRACOTTA_WALL.asItem());
+    tab.accept(YELLOW_TERRACOTTA_STAIRS.asItem());
     tab.accept(YELLOW_TERRACOTTA_SLAB.asItem());
     tab.accept(YELLOW_TERRACOTTA_WALL.asItem());
+    tab.accept(LIME_TERRACOTTA_STAIRS.asItem());
     tab.accept(LIME_TERRACOTTA_SLAB.asItem());
     tab.accept(LIME_TERRACOTTA_WALL.asItem());
+    tab.accept(GREEN_TERRACOTTA_STAIRS.asItem());
     tab.accept(GREEN_TERRACOTTA_SLAB.asItem());
     tab.accept(GREEN_TERRACOTTA_WALL.asItem());
+    tab.accept(CYAN_TERRACOTTA_STAIRS.asItem());
     tab.accept(CYAN_TERRACOTTA_SLAB.asItem());
     tab.accept(CYAN_TERRACOTTA_WALL.asItem());
+    tab.accept(LIGHT_BLUE_TERRACOTTA_STAIRS.asItem());
     tab.accept(LIGHT_BLUE_TERRACOTTA_SLAB.asItem());
     tab.accept(LIGHT_BLUE_TERRACOTTA_WALL.asItem());
+    tab.accept(BLUE_TERRACOTTA_STAIRS.asItem());
     tab.accept(BLUE_TERRACOTTA_SLAB.asItem());
     tab.accept(BLUE_TERRACOTTA_WALL.asItem());
+    tab.accept(PURPLE_TERRACOTTA_STAIRS.asItem());
     tab.accept(PURPLE_TERRACOTTA_SLAB.asItem());
     tab.accept(PURPLE_TERRACOTTA_WALL.asItem());
+    tab.accept(MAGENTA_TERRACOTTA_STAIRS.asItem());
     tab.accept(MAGENTA_TERRACOTTA_SLAB.asItem());
     tab.accept(MAGENTA_TERRACOTTA_WALL.asItem());
+    tab.accept(PINK_TERRACOTTA_STAIRS.asItem());
     tab.accept(PINK_TERRACOTTA_SLAB.asItem());
     tab.accept(PINK_TERRACOTTA_WALL.asItem());
     tab.accept(TERRACOTTA_BRICKS.asItem());
+    tab.accept(TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(WHITE_TERRACOTTA_BRICKS.asItem());
+    tab.accept(WHITE_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(WHITE_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(WHITE_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(LIGHT_GRAY_TERRACOTTA_BRICKS.asItem());
+    tab.accept(LIGHT_GRAY_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(LIGHT_GRAY_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(LIGHT_GRAY_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(GRAY_TERRACOTTA_BRICKS.asItem());
+    tab.accept(GRAY_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(GRAY_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(GRAY_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(BLACK_TERRACOTTA_BRICKS.asItem());
+    tab.accept(BLACK_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(BLACK_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(BLACK_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(BROWN_TERRACOTTA_BRICKS.asItem());
+    tab.accept(BROWN_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(BROWN_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(BROWN_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(RED_TERRACOTTA_BRICKS.asItem());
+    tab.accept(RED_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(RED_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(RED_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(ORANGE_TERRACOTTA_BRICKS.asItem());
+    tab.accept(ORANGE_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(ORANGE_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(ORANGE_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(YELLOW_TERRACOTTA_BRICKS.asItem());
+    tab.accept(YELLOW_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(YELLOW_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(YELLOW_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(LIME_TERRACOTTA_BRICKS.asItem());
+    tab.accept(LIME_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(LIME_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(LIME_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(GREEN_TERRACOTTA_BRICKS.asItem());
+    tab.accept(GREEN_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(GREEN_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(GREEN_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(CYAN_TERRACOTTA_BRICKS.asItem());
+    tab.accept(CYAN_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(CYAN_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(CYAN_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(LIGHT_BLUE_TERRACOTTA_BRICKS.asItem());
+    tab.accept(LIGHT_BLUE_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(LIGHT_BLUE_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(LIGHT_BLUE_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(BLUE_TERRACOTTA_BRICKS.asItem());
+    tab.accept(BLUE_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(BLUE_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(BLUE_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(PURPLE_TERRACOTTA_BRICKS.asItem());
+    tab.accept(PURPLE_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(PURPLE_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(PURPLE_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(MAGENTA_TERRACOTTA_BRICKS.asItem());
+    tab.accept(MAGENTA_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(MAGENTA_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(MAGENTA_TERRACOTTA_BRICK_WALL.asItem());
     tab.accept(PINK_TERRACOTTA_BRICKS.asItem());
+    tab.accept(PINK_TERRACOTTA_BRICK_STAIRS.asItem());
     tab.accept(PINK_TERRACOTTA_BRICK_SLAB.asItem());
     tab.accept(PINK_TERRACOTTA_BRICK_WALL.asItem());
-    tab.accept(GLAZED_TERRACOTTA.asItem());
+    tab.accept(WHITE_CONCRETE_STAIRS.asItem());
     tab.accept(WHITE_CONCRETE_SLAB.asItem());
     tab.accept(WHITE_CONCRETE_WALL.asItem());
+    tab.accept(LIGHT_GRAY_CONCRETE_STAIRS.asItem());
     tab.accept(LIGHT_GRAY_CONCRETE_SLAB.asItem());
     tab.accept(LIGHT_GRAY_CONCRETE_WALL.asItem());
+    tab.accept(GRAY_CONCRETE_STAIRS.asItem());
     tab.accept(GRAY_CONCRETE_SLAB.asItem());
     tab.accept(GRAY_CONCRETE_WALL.asItem());
+    tab.accept(BLACK_CONCRETE_STAIRS.asItem());
     tab.accept(BLACK_CONCRETE_SLAB.asItem());
     tab.accept(BLACK_CONCRETE_WALL.asItem());
+    tab.accept(BROWN_CONCRETE_STAIRS.asItem());
     tab.accept(BROWN_CONCRETE_SLAB.asItem());
     tab.accept(BROWN_CONCRETE_WALL.asItem());
+    tab.accept(RED_CONCRETE_STAIRS.asItem());
     tab.accept(RED_CONCRETE_SLAB.asItem());
     tab.accept(RED_CONCRETE_WALL.asItem());
+    tab.accept(ORANGE_CONCRETE_STAIRS.asItem());
     tab.accept(ORANGE_CONCRETE_SLAB.asItem());
     tab.accept(ORANGE_CONCRETE_WALL.asItem());
+    tab.accept(YELLOW_CONCRETE_STAIRS.asItem());
     tab.accept(YELLOW_CONCRETE_SLAB.asItem());
     tab.accept(YELLOW_CONCRETE_WALL.asItem());
+    tab.accept(LIME_CONCRETE_STAIRS.asItem());
     tab.accept(LIME_CONCRETE_SLAB.asItem());
     tab.accept(LIME_CONCRETE_WALL.asItem());
+    tab.accept(GREEN_CONCRETE_STAIRS.asItem());
     tab.accept(GREEN_CONCRETE_SLAB.asItem());
     tab.accept(GREEN_CONCRETE_WALL.asItem());
+    tab.accept(CYAN_CONCRETE_STAIRS.asItem());
     tab.accept(CYAN_CONCRETE_SLAB.asItem());
     tab.accept(CYAN_CONCRETE_WALL.asItem());
+    tab.accept(LIGHT_BLUE_CONCRETE_STAIRS.asItem());
     tab.accept(LIGHT_BLUE_CONCRETE_SLAB.asItem());
     tab.accept(LIGHT_BLUE_CONCRETE_WALL.asItem());
+    tab.accept(BLUE_CONCRETE_STAIRS.asItem());
     tab.accept(BLUE_CONCRETE_SLAB.asItem());
     tab.accept(BLUE_CONCRETE_WALL.asItem());
+    tab.accept(PURPLE_CONCRETE_STAIRS.asItem());
     tab.accept(PURPLE_CONCRETE_SLAB.asItem());
     tab.accept(PURPLE_CONCRETE_WALL.asItem());
+    tab.accept(MAGENTA_CONCRETE_STAIRS.asItem());
     tab.accept(MAGENTA_CONCRETE_SLAB.asItem());
     tab.accept(MAGENTA_CONCRETE_WALL.asItem());
+    tab.accept(PINK_CONCRETE_STAIRS.asItem());
     tab.accept(PINK_CONCRETE_SLAB.asItem());
     tab.accept(PINK_CONCRETE_WALL.asItem());
 

@@ -50,9 +50,11 @@ def generate_blocks(blocks, templates, config):
         addtag(f"block/mineable/{blockData["tool"]}",name)
 
         # --- THE FIX: Using nonlocal lets us read/write variables from the loop scope ---
-        def gen(builder):
+        def gen(builder,template = None):
             nonlocal blockType
-            template = openDataTemplate(blockType, minecraft_version)
+            if template == None:
+                template = blockType
+            template = openDataTemplate(template, minecraft_version)
             builder(blockData, config)
 
         # Determine the copy block formatting cleanly without separate function side-effects
@@ -68,12 +70,7 @@ def generate_blocks(blocks, templates, config):
             ("copies", copyBlock)
         ]
 
-        def registerBlock(blockClass):
-            blockTemplate = javaRegistry.get("block_registry")
-            registries.append(replaceKeysInString(blockTemplate, [
-                *commonReplace,
-                ("type", blockClass)
-            ]))
+        def registerTab():
             tabTemplate = javaRegistry.get("tab_registry")
             if not tabTemplate: 
                 print("couldn't get tab registry template ")
@@ -81,6 +78,14 @@ def generate_blocks(blocks, templates, config):
 
             tabTemplate = tabTemplate.replace("$all_caps", name.upper())
             tabRegistries.append(tabTemplate)
+
+        def registerBlock(blockClass):
+            blockTemplate = javaRegistry.get("block_registry")
+            registries.append(replaceKeysInString(blockTemplate, [
+                *commonReplace,
+                ("type", blockClass)
+            ]))
+            registerTab()
 
         def registerStairs():
             stairTemplate = javaRegistry.get("stairs_registry")
@@ -95,6 +100,21 @@ def generate_blocks(blocks, templates, config):
                 ("default", default),
                 *commonReplace
             ]))
+            registerTab()
+
+        def registerInfestedBlock():
+            infestedTemplate = javaRegistry.get("infested_registry")
+
+            host = name.replace("infested_","").upper()
+
+            if not host.lower() in blocks.keys():
+                host = "Blocks."+host
+
+            registries.append(replaceKeysInString(infestedTemplate, [
+                ("host", host),
+                *commonReplace
+            ]))
+            registerTab()
 
         # Matching block types
         match blockType:
@@ -104,6 +124,9 @@ def generate_blocks(blocks, templates, config):
             case "pillar":
                 gen(genPillar)
                 registerBlock("Block")
+            case "infested":
+                gen(genBlock,"block")
+                registerInfestedBlock()
             case "wall":
                 gen(genWall)
                 registerBlock("WallBlock")

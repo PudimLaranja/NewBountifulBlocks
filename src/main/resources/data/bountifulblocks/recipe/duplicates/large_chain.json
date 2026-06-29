@@ -6,9 +6,9 @@
         "N": "minecraft:iron_nugget"
     },
     "pattern": [
-        "N",
         "I",
-        "N"
+        "N",
+        "I"
     ],
     "result": {
         "id": "bountifulblocks:large_chain",

@@ -17,6 +17,15 @@ stairs_registry='''
     );
 '''
 
+infested_registry='''
+    public static final Block $all_caps = register(
+            "$name",
+            (settings) -> new InfestedBlock($host,settings),
+            BlockBehaviour.Properties.ofFullCopy($copies),
+            true
+    );
+'''
+
 tab_registry = '''
     tab.accept($all_caps.asItem());
 '''

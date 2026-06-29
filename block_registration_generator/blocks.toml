@@ -255,6 +255,7 @@ copies = "warped_flooring"
 tool = "axe"
 
 [infested_mossy_cobblestone]
+type = "infested"
 copies = "mossy_cobblestone"
 texture = "minecraft:mossy_cobblestone"
 tool = "pickaxe"
@@ -264,6 +265,7 @@ copies = "cobblestone"
 tool = "pickaxe"
 
 [infested_cobblestone_bricks]
+type = "infested"
 copies = "cobblestone_bricks"
 tool = "pickaxe"
 
@@ -287,6 +289,7 @@ copies = "mossy_cobblestone"
 tool = "pickaxe"
 
 [infested_mossy_cobblestone_bricks]
+type = "infested"
 copies = "mossy_cobblestone_bricks"
 tool = "pickaxe"
 
@@ -382,18 +385,22 @@ copies = "mossy_cobblestone_tiles"
 tool = "pickaxe"
 
 [infested_cobblestone_tiles]
+type = "infested"
 copies = "cobblestone_tiles"
 tool = "pickaxe"
 
 [infested_mossy_cobblestone_tiles]
+type = "infested"
 copies = "mossy_cobblestone_tiles"
 tool = "pickaxe"
 
 [infested_polished_cobblestone]
+type = "infested"
 copies = "polished_cobblestone"
 tool = "pickaxe"
 
 [infested_polished_mossy_cobblestone]
+type = "infested"
 copies = "polished_mossy_cobblestone"
 tool = "pickaxe"
 
@@ -402,6 +409,7 @@ copies = "cracked_stone_bricks"
 tool = "pickaxe"
 
 [infested_mossy_cracked_stone_bricks]
+type = "infested"
 copies = "mossy_cracked_stone_bricks"
 tool = "pickaxe"
 
@@ -410,6 +418,7 @@ copies = "chiseled_stone_bricks"
 tool = "pickaxe"
 
 [infested_mossy_chiseled_stone_bricks]
+type = "infested"
 copies = "mossy_chiseled_stone_bricks"
 tool = "pickaxe"
 
@@ -418,6 +427,7 @@ copies = "stone"
 tool = "pickaxe"
 
 [infested_stone_tiles]
+type = "infested"
 copies = "stone_tiles"
 tool = "pickaxe"
 
@@ -441,6 +451,7 @@ copies = "mossy_stone_bricks"
 tool = "pickaxe"
 
 [infested_mossy_stone_tiles]
+type = "infested"
 copies = "mossy_stone_tiles"
 tool = "pickaxe"
 
@@ -2220,6 +2231,7 @@ copies = "pink_terracotta_bricks"
 tool = "pickaxe"
 
 [glazed_terracotta]
+type = "custum"
 copies = "terracotta"
 tool = "pickaxe"
 
