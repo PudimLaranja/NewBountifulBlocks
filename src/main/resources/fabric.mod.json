@@ -2,10 +2,11 @@
 	"schemaVersion": 1,
 	"id": "bountiful",
 	"version": "${version}",
-	"name": "Newbountiful",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "NewBountifulBlocks",
+	"description": "Port of the mod BountifulBlocks by ultimatech to 26.1.2 with some new additions",
 	"authors": [
-		"Me!"
+		"PudimLaranja",
+		"Ultimatech"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

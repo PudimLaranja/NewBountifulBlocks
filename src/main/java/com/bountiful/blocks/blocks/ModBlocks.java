@@ -3662,8 +3662,7 @@ public class ModBlocks {
                 tab.accept(PINK_CONCRETE_SLAB.asItem());
                 tab.accept(PINK_CONCRETE_WALL.asItem());
                 //$tabRegistration:end
-            })
-            .build();
+            }).build();
 
     public static void init() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,CUSTOM_CREATIVE_TAB_KEY,CUSTOM_CREATIVE_TAB);
