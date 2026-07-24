@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "bountifulblocks:smooth_stone_tile_wall"
+          "name": "bountifulblocks:smooth_stone_tiles_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "bountifulblocks:blocks/smooth_stone_tile_wall"
+  "random_sequence": "bountifulblocks:blocks/smooth_stone_tiles_wall"
 }
