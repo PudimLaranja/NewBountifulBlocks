@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "--",
+    "--"
+  ],
+  "key": {
+    "-": "minecraft:snow"
+  },
+  "result": {
+    "id": "bountifulblocks:snow_bricks"
+  }
+}
